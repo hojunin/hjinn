@@ -6,25 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'HOJUNIN',
+  tagline: 'HOJUNIN',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  organizationName: 'hojunin',
+  projectName: 'hjinn',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
 
   presets: [
@@ -34,8 +27,12 @@ const config = {
       ({
         docs: false, // 옵션: 문서 플러그인 사용 여부
         blog: {
-          routeBasePath: '/', // 사이트 루트에서 블로그 제공
-          /* 다른 블로그 옵션 */
+          routeBasePath: '/',
+          blogSidebarTitle: '모든 포스트',
+          blogSidebarCount: 'ALL',
+          blogTitle: 'HJ 개발 블로그',
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -83,7 +80,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HOJUN IN, Powered by Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
