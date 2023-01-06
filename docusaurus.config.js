@@ -31,6 +31,7 @@ const config = {
           blogSidebarTitle: '모든 포스트',
           blogSidebarCount: 'ALL',
           blogTitle: 'HJ 개발 블로그',
+          postsPerPage: 5,
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         },
