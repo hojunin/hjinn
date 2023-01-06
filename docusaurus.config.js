@@ -32,19 +32,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false, // 옵션: 문서 플러그인 사용 여부
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/', // 사이트 루트에서 블로그 제공
+          /* 다른 블로그 옵션 */
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,21 +48,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'HJ__INN',
         logo: {
-          alt: 'My Site Logo',
+          alt: '메인 아이콘',
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/about', label: '내 소개', position: 'left' },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hojunin',
             label: 'GitHub',
             position: 'right',
           },
