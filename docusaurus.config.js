@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://github.com/hojunin.png',
   organizationName: 'hojunin',
   projectName: 'hjinn',
   i18n: {
@@ -47,10 +47,10 @@ const config = {
     ({
       navbar: {
         title: 'HJ__INN',
-        logo: {
-          alt: '메인 아이콘',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: '메인 아이콘',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           { to: '/about', label: '내 소개', position: 'left' },
           {

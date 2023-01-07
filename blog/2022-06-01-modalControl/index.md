@@ -1,23 +1,23 @@
 ---
 slug: modal
-title: 겟차에서 모달을 컨트롤하는 방법
+title: React Native에서 모달을 컨트롤하는 방법
 authors: [hojun]
 tags: [react-native]
 ---
 
 import myImageUrl from './modal_wiki.png';
 
-안녕하세요. Getcha FrontEnd 개발자 **Nick**입니다.
-
 UI / UX의 측면에서 interaction은 매우 중요한 부분을 차지합니다. 적재적소에 배치된 버튼이나 모달, 상황에 맞는 인터렉션은 사용자 이탈을 막고 서비스 내에서 사용자와 사업자가 원하는 화면까지 가도록 돕는 방법이기 때문입니다.
 
 그 중에서 오늘 다뤄볼 주제는 모달(Modal)입니다.
+
+<!--truncate-->
 
 # 모달
 
 Modal은 User Interface 중 부모 화면의 윗 레이어에 위치해서 간단한 사용자 인터렉션을 진행하고 되돌아가도록 설계되어있는 모든 종류의 UI를 통칭합니다.
 
-<img src={myImageUrl} alt="Example banner" width="400" height="200"/>
+<img src={myImageUrl} alt="Example banner" width="600" height="200"/>
 
 참조 : 위키백과
 
