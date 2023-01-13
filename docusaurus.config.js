@@ -35,6 +35,10 @@ const config = {
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         },
+        gtag: {
+          trackingID: 'G-98C5STM243',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
