@@ -1,0 +1,7 @@
+User-agent: Googlebot
+User-agent: yeti
+User-agent: daumoa
+User-agent: bingbot
+Allow: *
+
+Sitemap:https://hojunin.com/sitemap.xml
