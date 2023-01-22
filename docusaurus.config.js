@@ -19,6 +19,15 @@ const config = {
     defaultLocale: "ko",
     locales: ["ko"],
   },
+  headTags: [
+    {
+      tagName: "meta",
+      attributes: {
+        "google-site-verification":
+          "uwCYoBoSwTC9uFmHW4NboXtooElpmJxhrxozRvx3l-w",
+      },
+    },
+  ],
 
   presets: [
     [
