@@ -27,6 +27,13 @@ const config = {
         content: "uwCYoBoSwTC9uFmHW4NboXtooElpmJxhrxozRvx3l-w",
       },
     },
+    {
+      tagName: "meta",
+      attributes: {
+        name: "naver-site-verification",
+        content: "b1ce78632311098322928fbebb74013086198e5c-w",
+      },
+    },
   ],
 
   presets: [
