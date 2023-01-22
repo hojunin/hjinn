@@ -23,8 +23,8 @@ const config = {
     {
       tagName: "meta",
       attributes: {
-        "google-site-verification":
-          "uwCYoBoSwTC9uFmHW4NboXtooElpmJxhrxozRvx3l-w",
+        name: "google-site-verification",
+        content: "uwCYoBoSwTC9uFmHW4NboXtooElpmJxhrxozRvx3l-w",
       },
     },
   ],
