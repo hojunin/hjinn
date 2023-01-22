@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "HOJUNIN",
   tagline: "HOJUNIN",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://www.hojunin.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "https://github.com/hojunin.png",
   organizationName: "hojunin",
-  projectName: "hjinn",
+  projectName: "hojunin",
   i18n: {
     defaultLocale: "ko",
     locales: ["ko"],
@@ -56,7 +56,6 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
-          { to: "/docs", label: "도큐먼트", position: "left" },
           { to: "/about", label: "내 소개", position: "left" },
           {
             href: "https://github.com/hojunin",
