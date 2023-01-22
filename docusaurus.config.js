@@ -31,7 +31,7 @@ const config = {
       tagName: "meta",
       attributes: {
         name: "naver-site-verification",
-        content: "b1ce78632311098322928fbebb74013086198e5c-w",
+        content: "b1ce78632311098322928fbebb74013086198e5c",
       },
     },
   ],
