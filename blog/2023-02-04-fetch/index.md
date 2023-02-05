@@ -1,6 +1,6 @@
 ---
 slug: fetch
-title: fetch API를 알아보자.
+title: fetch API에 대하여
 authors: [hojun]
 tags: [frontend, fetch]
 ---
