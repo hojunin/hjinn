@@ -2,7 +2,7 @@
 slug: technical-conqueror
 title: 기술적 정복자
 authors: [hojun]
-tags: [technical-conqueror, leader]
+tags: [기술적 정복자, 리더]
 ---
 
 **기술적 정복자**에 대한 아티클을 본 적 있습니다. 당신이 아무리 뛰어난 기술을 가진 엔지니어라고 한들, 이를 다른 조직에 적용하는 과정에서 그 집단 구성원에 대한 존중이 없다면 한낱 정복자에 지나지 않다고.
