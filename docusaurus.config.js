@@ -96,8 +96,13 @@ const config = {
             label: '내 소개',
             position: 'left',
           },
+          // {
+          //   to: '/books',
+          //   label: '책',
+          //   position: 'left',
+          // },
           {
-            href: 'https://www.notion.so/hjinn/Full-Speed-Ahead-9b036ea279d04498ba907620e641c475?pvs=4',
+            href: 'https://github.com/hojunin',
             label: 'GitHub',
             position: 'right',
           },
