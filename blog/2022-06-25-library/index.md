@@ -1,6 +1,6 @@
 ---
 slug: library
-title: 라이브러리에 문제가 생겼어요.
+title: 오류 디버깅 딥다이브, 그리고 오픈소스에 기여하기
 authors: [hojun]
 tags: [react-native]
 ---
