@@ -139,7 +139,7 @@ const data = { a: 1 };
 try {
   console.log(data.asdf?.asdfasdf);
 } catch (error) {
-  // 에러처리
+  // 에러처리 불가. try 문은 정상실행된다.
 }
 ```
 
@@ -168,7 +168,9 @@ try {
 ![브라우져 지원](2.png)
 
 ```js
+// 1. temp에 상위 객체를 호출
 let temp = obj.first;
+// 2. 상위 객체가 nullish하면 undefined를, 그렇지 않으면 다음 프로퍼티에 접근하여 반환
 let nestedProp = temp === null || temp === undefined ? undefined : temp.second;
 ```
 
