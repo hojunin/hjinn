@@ -1,0 +1,43 @@
+/* styles.module.css */
+
+.header {
+  display: flex;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.listItem {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #c7c7c7;
+  text-align: left;
+  cursor: pointer;
+}
+[data-theme='dark'] .listItem {
+  border-bottom: 1px solid #4a4a4a;
+  color: white;
+}
+.listItem:hover {
+  opacity: 0.8;
+  background-color: #f2f2f2;
+}
+
+[data-theme='dark'] .listItem:hover {
+  background-color: #232323;
+}
+
+.title {
+  width: 20%;
+}
+
+.author {
+  width: 15%;
+}
+
+.description {
+  width: 40%;
+}
+
+.tags {
+  width: 25%;
+}

@@ -1,0 +1,14 @@
+.root {
+  width: 100%;
+  height: 100%;
+
+  .container {
+    margin: 0 auto;
+    padding: 20px 0px;
+    width: calc(100% - 320px);
+
+    @media screen and (max-width: 996px) {
+      width: calc(100% - 80px);
+    }
+  }
+}
