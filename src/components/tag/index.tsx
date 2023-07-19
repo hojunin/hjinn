@@ -1,10 +1,14 @@
 import React from 'react';
-import styles from './index.module.css';
+import styled from 'styled-components';
 
 const Tag = ({ type, value }) => {
-  return <div className={styles.root}>Tag</div>;
+  return <Container>Tag</Container>;
 };
 
 export default Tag;
 
-export const TagType = {} as const;
+const Container = styled.div`
+  background-color: brown;
+  width: 10px;
+  height: 20px;
+`;

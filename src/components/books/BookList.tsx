@@ -1,6 +1,7 @@
 import React from 'react';
 import { books } from '../../../static/constants/books';
 import styles from './index.module.css';
+import Tag from '../tag';
 const BookList = () => {
   return (
     <section>
@@ -16,7 +17,9 @@ const BookList = () => {
             <span className={styles.title}>{book.title}</span>
             <span className={styles.author}>{book.author}</span>
             <span className={styles.description}>{book.quickDescription}</span>
-            <span className={styles.tags}>{book.tags.status}</span>
+            <span className={styles.tags}>
+              <Tag>{book.tags.status}</Tag>{' '}
+            </span>
           </li>
         ))}
       </ul>
