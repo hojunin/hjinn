@@ -1,3 +1,11 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .container {
   position: fixed;
   width: 33%;
@@ -8,6 +16,7 @@
   background-color: #fff;
   padding: 20px;
   overflow: scroll;
+  animation: fade-in 100ms ease-in;
 }
 
 @media screen and (max-width: 440px) {

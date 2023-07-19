@@ -126,6 +126,24 @@ export const books: BOOK[] = [
     },
   },
   {
+    title: '실리콘밸리의 팀장들',
+    author: '킴 스콧',
+    coverImage:
+      'https://image.aladin.co.kr/product/19389/8/cover500/8935212822_1.jpg',
+    quickDescription: '권력과 통제는 허상이다',
+    createdDate: new Date('2023/07/15'),
+    description:
+      "살면서 꼭 리더가 될 필요는 없습니다. 하지만 아무리 스스로의 역량이 뛰어나도 여럿이 힘을 합쳐야만 해결할 수 있는 거대하고 어려운 문제들이 많아요. 국제기구가 해결 중인 문제를 예로 들어볼게요. UN이 풀고 있는 문제는 세계평화입니다. 어느 누구도 홀로는 이 거대하고 추상화된 문제를 해결할 수 없습니다. 비슷한 생각과 열정을 가진 사람들이 모여야 겨우 출발할 수 있죠.\n\n 완전한 솔직함(Radical Candor), 책의 진짜 제목이죠. 42p에서 이 부분을 설명하는데, 넷플릭스의 규칙 없음이라는 책에서 언급된 '솔직하지만 무례하지 않게'가 오버랩되었어요. 결국 위선 없이 솔직히 말해야 하지만 의사표현에 있어서는 겸손하고 무례하지 않아야 한다는 점에서요.",
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/69',
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      review: false,
+      rating: 6,
+    },
+  },
+  {
     title: '돈의 속성',
     author: '김승호',
     coverImage:
