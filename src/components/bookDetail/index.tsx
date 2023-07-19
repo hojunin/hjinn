@@ -7,6 +7,7 @@ import React, {
 import OutsideClickDetector from '../outsideClickDetector';
 import { BOOK } from 'static/constants/books';
 import styled from 'styled-components';
+import styles from './index.module.css';
 
 interface BookDetailModalProps {
   book: BOOK;
@@ -44,10 +45,15 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
 
     return (
       <OutsideClickDetector onOutsideClick={close}>
-        <Container>
-          어사이드 컴포넌트
+        <aside className={styles.container}>
+          <div className={styles.header}>
+            <StatusBox status={book.tags.status} />
+          </div>
+
           <h1>{book.title}</h1>
-        </Container>
+
+          <p>{book.description}</p>
+        </aside>
       </OutsideClickDetector>
     );
   },
@@ -62,5 +68,4 @@ const Container = styled.aside`
   right: 0px;
   height: 100%;
   z-index: 999;
-  background-color: white;
 `;

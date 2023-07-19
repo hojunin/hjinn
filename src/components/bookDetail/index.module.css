@@ -1,0 +1,19 @@
+.container {
+  position: fixed;
+  width: 33%;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  z-index: 999;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+}
+
+[data-theme='dark'] .container {
+  background-color: #202020;
+}

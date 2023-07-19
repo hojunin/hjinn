@@ -80,11 +80,11 @@ const config = {
             label: '내 소개',
             position: 'left',
           },
-          {
-            to: '/books',
-            label: '독서기록',
-            position: 'left',
-          },
+          // {
+          //   to: '/books',
+          //   label: '독서기록',
+          //   position: 'left',
+          // },
           {
             href: 'https://github.com/hojunin',
             label: 'GitHub',
