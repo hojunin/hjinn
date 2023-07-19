@@ -8,6 +8,7 @@
 
 .listItem {
   display: flex;
+  align-items: center;
   padding: 10px;
   border-bottom: 1px solid #c7c7c7;
   text-align: left;
@@ -36,8 +37,17 @@
 
 .description {
   width: 40%;
+
+  @media screen and (max-width: 440px) {
+    display: none;
+  }
 }
 
 .tags {
   width: 25%;
+  display: flex;
+
+  @media screen and (max-width: 440px) {
+    width: 65%;
+  }
 }

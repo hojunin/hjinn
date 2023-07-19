@@ -1,14 +1,55 @@
 import React from 'react';
+import { ValueOf } from 'static/constants/books';
 import styled from 'styled-components';
 
-const Tag = ({ type, value }) => {
-  return <Container>Tag</Container>;
+export const TAG_TYPE = Object.freeze({
+  RATING: '평점',
+  STATUS: '상태',
+  REVIEW: '서평여부',
+});
+
+const getColorByType = (type: ValueOf<typeof TAG_TYPE>) => {
+  switch (type) {
+    case TAG_TYPE.STATUS:
+      return '#c789af';
+    case TAG_TYPE.REVIEW:
+      return '#b03fef';
+    case TAG_TYPE.RATING:
+      return '#999eee';
+    default:
+      return 'blue';
+  }
+};
+
+const Tag = ({
+  type,
+  value,
+}: {
+  type: ValueOf<typeof TAG_TYPE>;
+  value: string | number;
+}) => {
+  return (
+    <Container bg={getColorByType(type)}>
+      {type === TAG_TYPE.RATING && <RatingIcon />}
+      {value}
+    </Container>
+  );
 };
 
 export default Tag;
 
-const Container = styled.div`
-  background-color: brown;
-  width: 10px;
-  height: 20px;
+const Container = styled.div<{ bg: string }>`
+  background-color: ${({ bg }) => bg};
+  padding: 4px 10px;
+  margin-right: 4px;
+  border-radius: 4px;
+`;
+
+const RatingIcon = styled.img.attrs({
+  src: 'https://img.getcha.io/icons/pictogram-regular-score_fill.png',
+  alt: '별점 아이콘',
+})`
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
 `;

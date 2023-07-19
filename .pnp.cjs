@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mdx-js/react", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:1.6.22"],\
             ["@tsconfig/docusaurus", "npm:1.0.6"],\
             ["clsx", "npm:1.2.1"],\
+            ["dayjs", "npm:1.11.9"],\
             ["prism-react-renderer", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:1.3.5"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:17.0.2"],\
@@ -9454,6 +9455,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dayjs", [\
+        ["npm:1.11.9", {\
+          "packageLocation": "./.yarn/cache/dayjs-npm-1.11.9-c47d327b7c-a4844d83dc.zip/node_modules/dayjs/",\
+          "packageDependencies": [\
+            ["dayjs", "npm:1.11.9"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["debug", [\
         ["npm:2.6.9", {\
           "packageLocation": "./.yarn/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",\
@@ -11045,6 +11055,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mdx-js/react", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:1.6.22"],\
             ["@tsconfig/docusaurus", "npm:1.0.6"],\
             ["clsx", "npm:1.2.1"],\
+            ["dayjs", "npm:1.11.9"],\
             ["prism-react-renderer", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:1.3.5"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:c3793e36646f6d14490a626dc982b8a7ecf4d09530fe9feffc8008e955e744e889fcddcc64b4bf4164da60632c84caf854e53de7fd67fdc0a6c5afec37910f0d#npm:17.0.2"],\

@@ -7,8 +7,8 @@
     padding: 20px 0px;
     width: calc(100% - 320px);
 
-    @media screen and (max-width: 996px) {
-      width: calc(100% - 80px);
+    @media screen and (max-width: 440px) {
+      width: calc(100% - 20px);
     }
   }
 }
