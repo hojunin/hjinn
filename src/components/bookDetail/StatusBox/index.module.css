@@ -1,5 +1,15 @@
 .container {
-  padding: 8px 12px;
+  padding: 4px 12px;
   border: 1px solid #c7c7c7;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0px;
+}
+
+[data-theme='dark'] .container {
+  border: 1px solid #4a4a4a;
 }

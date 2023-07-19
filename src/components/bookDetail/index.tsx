@@ -8,6 +8,9 @@ import OutsideClickDetector from '../outsideClickDetector';
 import { BOOK } from 'static/constants/books';
 import styled from 'styled-components';
 import styles from './index.module.css';
+import StatusBox from './StatusBox/index';
+import BrunchImage from '../../../static/img/brunch.png';
+import BookInfo from './BookInfo/index';
 
 interface BookDetailModalProps {
   book: BOOK;
@@ -22,9 +25,12 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
   (props, ref) => {
     const [book, setBook] = useState<BOOK | null>(null);
     const [isVisible, setIsVisible] = useState(false);
-    const open = useCallback((book: BOOK) => {
-      setBook(book);
-      setIsVisible(true);
+
+    const openModal = useCallback((book: BOOK) => {
+      setTimeout(() => {
+        setBook(book);
+        setIsVisible(true);
+      }, 0);
     }, []);
 
     const close = useCallback(() => {
@@ -34,7 +40,7 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
     useImperativeHandle(
       ref,
       () => ({
-        open,
+        open: openModal,
         close,
       }),
       [open, close],
@@ -43,29 +49,86 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
       return <></>;
     }
 
+    const onClickLink = (type) => {
+      if (!book.links[type]) {
+        return;
+      }
+      try {
+        open(book.links[type]);
+      } catch (error) {}
+    };
+
     return (
       <OutsideClickDetector onOutsideClick={close}>
         <aside className={styles.container}>
           <div className={styles.header}>
             <StatusBox status={book.tags.status} />
+            <div className={styles.iconsContainer}>
+              <IconButton
+                onClick={() => onClickLink('instagram')}
+                enable={!!book.links.instagram}
+              >
+                <InstaIcon />
+              </IconButton>
+              <IconButton
+                onClick={() => onClickLink('brunch')}
+                enable={!!book.links.brunch}
+              >
+                <BrunchIcon />
+              </IconButton>
+
+              {/* <InstaIcon /> */}
+            </div>
           </div>
 
-          <h1>{book.title}</h1>
+          <BookInfo
+            title={book.title}
+            author={book.author}
+            coverImage={book.coverImage}
+          />
 
-          <p>{book.description}</p>
+          {book.description?.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
         </aside>
       </OutsideClickDetector>
     );
   },
 );
-
 export default BookDetail;
 
-const Container = styled.aside`
-  position: fixed;
-  width: 33%;
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  z-index: 999;
+const IconButton = styled.button`
+  all: unset;
+  opacity: ${({ enable }) => (enable ? 1 : 0.3)};
+  cursor: ${({ enable }) => (enable ? 'pointer' : 'normal')};
+  border-radius: 4px;
+  padding: 4px;
+  margin-right: 4px;
+`;
+
+const InstaIcon = styled.img.attrs({
+  src: 'https://cloud.getcha.io/icons/app-large-instragram_link.png',
+  alt: '인스타 아이콘',
+})`
+  width: 30px;
+  height: 30px;
+`;
+
+const BrunchIcon = styled.img.attrs({
+  src: BrunchImage,
+  alt: '브런치 아이콘',
+})`
+  width: 30px;
+  height: 30px;
+`;
+
+const Icon = styled.img.attrs({
+  src: 'https://cloud.getcha.io/icons/app-large-instragram_link.png',
+  alt: '인스타 아이콘',
+})`
+  width: 30px;
+  height: 30px;
 `;

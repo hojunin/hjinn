@@ -33,6 +33,9 @@
 
 .author {
   width: 15%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .description {

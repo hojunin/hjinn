@@ -76,15 +76,15 @@ const config = {
         // },
         items: [
           {
+            to: '/books',
+            label: '독서기록',
+            position: 'left',
+          },
+          {
             href: 'https://hjinn.notion.site/Full-Speed-Ahead-9b036ea279d04498ba907620e641c475?pvs=4',
             label: '내 소개',
             position: 'left',
           },
-          // {
-          //   to: '/books',
-          //   label: '독서기록',
-          //   position: 'left',
-          // },
           {
             href: 'https://github.com/hojunin',
             label: 'GitHub',

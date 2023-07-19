@@ -7,11 +7,26 @@
   z-index: 999;
   background-color: #fff;
   padding: 20px;
+
+  @media screen and (max-width: 440px) {
+    width: 100%;
+    height: 70%;
+    left: 0px;
+    top: 30%;
+    overflow: scroll;
+  }
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
   padding: 10px;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 [data-theme='dark'] .container {

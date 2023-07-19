@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { BOOK, books } from '../../../static/constants/books';
 import styles from './index.module.css';
 import Tag, { TAG_TYPE } from '../tag';
@@ -8,6 +8,7 @@ import BookDetail, { BookDetailModalRef } from '../bookDetail';
 const BookList = () => {
   // 나중에 필터랑 소터 넣자.
   const [filteredBooks, setFilteredBooks] = useState(books);
+
   const detailRef = useRef<BookDetailModalRef | null>(null);
   const onClickBook = (book: BOOK) => {
     detailRef.current?.open(book);
@@ -31,12 +32,12 @@ const BookList = () => {
           <span className={styles.description}>{book.quickDescription}</span>
           <span className={styles.tags}>
             <Tag type={TAG_TYPE.STATUS} value={book.tags.status} />
-            <Tag
-              type={TAG_TYPE.REVIEW}
-              value={book.tags.review ? '서평O' : '서평X'}
-            />
+            {'instagram' in book.links ||
+              ('brunch' in book.links && (
+                <Tag type={TAG_TYPE.REVIEW} value={'서평'} />
+              ))}
             {book.tags.rating && (
-              <Tag type={TAG_TYPE.RATING} value={book.tags.rating} />
+              <Tag type={TAG_TYPE.RATING} value={book.tags.rating / 2} />
             )}
           </span>
         </li>
