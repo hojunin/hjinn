@@ -62,18 +62,19 @@ export const books: BOOK[] = [
     },
   },
   {
-    title: '초인류',
-    author: '김상균',
+    title: '운의 알고리즘',
+    author: '현존 정희도',
     coverImage:
-      'https://image.aladin.co.kr/product/31800/17/cover500/8901272806_2.jpg',
-    quickDescription: null,
-    createdDate: new Date('2023/07/03'),
-    description: '읽어보고 쓸게요!! - HJ',
+      'https://image.aladin.co.kr/product/29082/78/cover500/k872836650_1.jpg',
+    quickDescription: '운은 내가 만드는거야!',
+    createdDate: new Date('2023/07/01'),
+    description:
+      '옮길 운(運) 에 목숨 명(命), 내 목숨을 내가 운행한다는 뜻입니다. 확률과 비슷한 수동적인 개념으로 생각하고 있었는데, 내가 조작할 수 있는 능동적인 개념이었던 것이죠\n\n이 책에는 사람들이 오해하고 있는 운이나 운명같이 뜬구름 잡는 개념을 이해하기 쉽게 설명하기 위한 작가의 노력이 묻어있습니다. 그 중 자동차와 도로를 활용한 비유가 가장 와닿았습니다.엑셀에 발만 가져다 대도 100m는 나갈 수 있는 레이싱카가 늪지대 위에 있다면, 아무리 엑셀을 밟고 기어를 넣어도 늪으로 빨려들어갈 뿐 앞으로 나아가지 못합니다. 최대한 빨리 아우토반으로 옮겨야겠지요. \n\n 사실 아직도 나의 차종이 뭔지, 어떤 환경에서 허우적대고 있는지 명확히 모르지만, 이 사실을 자각하고 살다보니 정신승리나 합리화 따위를 덜 하게 된 것 같습니다.',
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
+      status: BOOK_STATUS.DONE,
       review: false,
-      rating: null,
+      rating: 8,
     },
   },
   {
@@ -175,7 +176,7 @@ export const books: BOOK[] = [
     author: '애덤 그렌트',
     coverImage:
       'https://image.aladin.co.kr/product/2709/7/cover500/8962605813_1.jpg',
-    quickDescription: '넘어지지 않는 법보다는 일어서는 법',
+    quickDescription: '현명한 기버가 됩시다',
     createdDate: new Date('2023/07/21'),
     description: null,
     links: {},
@@ -201,6 +202,69 @@ export const books: BOOK[] = [
       status: BOOK_STATUS.DONE,
       review: true,
       rating: 5,
+    },
+  },
+  {
+    title: '우리는 언젠가 만난다',
+    author: '채사장',
+    coverImage:
+      'https://image.aladin.co.kr/product/17870/87/cover500/s942639906_2.jpg',
+    quickDescription: '너는 그 자체로 하나의 큰 세계다.',
+    createdDate: new Date('2023/07/21'),
+    description:
+      '들어가는 말에는 다음과 같은 말이 나온다, 모든 섬이 언제나 바다의 심연에서 만나듯, 이 책의 모든 이야기는 당신의 마음 안에서 서로 관걔맺고,언젠가는 하나로 만나게 될 것이다. "나"라는 존재와 그 여집합으로 구성된 이 세계는 살아보니 정말 다양한 요소로 이루어져 있다. 책에서는 나와 당신의 만남을 세계와 세계가 만난다고 했는데, 이 말은 굉장히 중의적으로 다가왔다. 우리는 책에 소개된 요소 이외에도 정말 다양한 어떤것들과 관계를 맺고 있고 언젠가 하나의 점에서 만난다.\n\n언어와 책에 대한 관점은 특히 나를 반성하게 했다. 책이 주는 좋은 이미지에 소모당해버린 시간들이 아깝기도 하고, 이제야 고전을 읽어볼까 생각도 들고. 당연히 뭐 아직도 우매함의 봉우리에서 외치는 한마디일 수도 있고.\n\n처음 읽었을 때 이 책은 어려운 철학을 매너를 높힌 톤으로 두서없이 설명한 책이었다. 물론 3번째 읽었을 때에도 별다른 차이점이 없긴 했는데, 한가지 이해한 점은 내 주변 모든것들과 나는 닿아있고, 이들과 외연이라는 단어를 쓰기에 알맞다.먼 훗날 이것저것에 대해 경험하고 나면 "나"라는 범주에 모두가 포함되는, 그리고 그 범주가 다시 나로 모아지며 만나게 되는. 설명하자니 어렵고 우스운 관계라는 점이다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.N,
+      review: false,
+      rating: 10,
+    },
+  },
+  {
+    title: '미드나잇 라이브러리',
+    author: '매트 헤이그',
+    coverImage:
+      'https://image.aladin.co.kr/product/30590/78/cover500/k662830816_2.jpg',
+    quickDescription: '분명 그게 최선이었을꺼야!',
+    createdDate: new Date('2023/07/21'),
+    description:
+      '저는 아직도 영앤 리치 핸섬가이가 되면 진짜 행복하겠다고 생각합니다. 물론 한 번도 그런 사람이 돼본 적이 없어서(🙄..) 진짜로 행복할지 아닌지는 잘 몰라요. \n\n 주인공이 여러 인생을 돌며 누가봐도 성공한 스타의 삶도 살아보고 하고 싶은 연구도 하는 삶을 살아봤지만, 생각보다 그렇게 행복하진 않았으니 진짜 그런 사람이 되면 알 수 있겠죠?\n\n책 중반에 엘름 부인이 한 말이 의미심장하게 다가왔습니다.한 번 읽은 책은 다시 돌아오지 않는다.우리는 한번 내린 반대 결정의 인생을 살 수 없습니다. 미련이 남든 후회를 하든 결과는 변하지 않아요. 그저 선택만 해도 인생이 통째로 뒤바뀌는 노라의 결정이나 당장 내일 점심으로 먹을 메뉴를 정하는 나의 결정이나 똑같아요. 한번 내린 결정은 변하지 않습니다.\n\n아마 한 몇 년 뒤의 제가 과거의 오늘을 돌아보며 아마 비슷한 말을 하고 있을 것 같아요. 지금은 잘 모르겠지만, 지금에 할 수 있는 최고의 선택을 했겠지 하고요.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.N,
+      review: false,
+      rating: 6,
+    },
+  },
+  {
+    title: '배민다움',
+    author: '홍성태',
+    coverImage:
+      'https://image.aladin.co.kr/product/9488/10/cover500/k592535738_2.jpg',
+    quickDescription: '식문화를 브랜딩하다',
+    createdDate: new Date('2023/07/21'),
+    description:
+      '개발자로서 바라본 배민은 꽤나 높은 수준의 기술력을 바탕으로 우리나라 배달시장을 주름잡은 대단한 기업이지만, 사용자로서 바라봤을 때는 그저 유쾌한 브랜딩의 연속입니다. \n\n 이 기업의 시작부터 어려움, 성장 과정 등을 한눈에 볼 수 있었고 인터뷰 형식이여서 꽤나 잘 읽혔던 것 같습니다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      review: false,
+      rating: 5,
+    },
+  },
+  {
+    title: '초인류',
+    author: '김상균',
+    coverImage:
+      'https://image.aladin.co.kr/product/31800/17/cover500/8901272806_2.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/03'),
+    description: '읽어보고 쓸게요!! - HJ',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
     },
   },
 ];

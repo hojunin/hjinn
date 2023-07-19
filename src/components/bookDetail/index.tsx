@@ -43,7 +43,7 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
         open: openModal,
         close,
       }),
-      [open, close],
+      [openModal, close],
     );
     if (!isVisible || !book) {
       return <></>;
