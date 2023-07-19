@@ -77,7 +77,9 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
                 <BrunchIcon />
               </IconButton>
 
-              {/* <InstaIcon /> */}
+              <IconButton onClick={close} enable>
+                <CloseIcon />
+              </IconButton>
             </div>
           </div>
 
@@ -125,9 +127,9 @@ const BrunchIcon = styled.img.attrs({
   height: 30px;
 `;
 
-const Icon = styled.img.attrs({
-  src: 'https://cloud.getcha.io/icons/app-large-instragram_link.png',
-  alt: '인스타 아이콘',
+const CloseIcon = styled.img.attrs({
+  src: 'https://img.getcha.io/icons/pictogram-regular-close_header.png',
+  alt: '닫기 아이콘',
 })`
   width: 30px;
   height: 30px;
