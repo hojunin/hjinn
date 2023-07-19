@@ -40,17 +40,18 @@
 
 .description {
   width: 40%;
-
-  @media screen and (max-width: 440px) {
-    display: none;
-  }
 }
 
 .tags {
   width: 25%;
   display: flex;
+}
 
-  @media screen and (max-width: 440px) {
+@media screen and (max-width: 440px) {
+  .description {
+    display: none;
+  }
+  .tags {
     width: 65%;
   }
 }
