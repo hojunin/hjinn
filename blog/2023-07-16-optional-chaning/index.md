@@ -1,6 +1,6 @@
 ---
 slug: optional-chaning
-title: 옵셔널 체이닝
+title: 양날의 검, 옵셔널 체이닝
 authors: [hojun]
 tags: [javaScript, optional-chaining]
 ---
