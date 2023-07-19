@@ -1,13 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { books } from '../../../static/constants/books';
+import React, { useState, useRef } from 'react';
+import { BOOK, books } from '../../../static/constants/books';
 import styles from './index.module.css';
 import Tag, { TAG_TYPE } from '../tag';
 import styled from 'styled-components';
+import BookDetail, { BookDetailModalRef } from '../bookDetail';
 
-const BookList = ({ onClickBook }) => {
+const BookList = () => {
   // 나중에 필터랑 소터 넣자.
   const [filteredBooks, setFilteredBooks] = useState(books);
-
+  const detailRef = useRef<BookDetailModalRef | null>(null);
+  const onClickBook = (book: BOOK) => {
+    detailRef.current?.open(book);
+  };
   return (
     <ListContainer>
       <div className={styles.header}>
@@ -37,6 +41,8 @@ const BookList = ({ onClickBook }) => {
           </span>
         </li>
       ))}
+
+      <BookDetail ref={detailRef} />
     </ListContainer>
   );
 };

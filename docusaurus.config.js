@@ -68,22 +68,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'T1VELBPZ5Y',
-
-        // Public API key: it is safe to commit it
-        apiKey: '3ee9f7244d50e2828a2d35eb486921f8',
-
-        indexName: 'YOUR_INDEX_NAME',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-        searchPagePath: 'search',
-      },
       navbar: {
         title: 'HJ__INN',
         // logo: {
@@ -96,11 +80,11 @@ const config = {
             label: '내 소개',
             position: 'left',
           },
-          // {
-          //   to: '/books',
-          //   label: '책',
-          //   position: 'left',
-          // },
+          {
+            to: '/books',
+            label: '독서기록',
+            position: 'left',
+          },
           {
             href: 'https://github.com/hojunin',
             label: 'GitHub',
