@@ -234,7 +234,7 @@ export const books: BOOK[] = [
     description: null,
     links: {},
     tags: {
-      status: BOOK_STATUS.ONGOING,
+      status: BOOK_STATUS.NOTYET,
       review: false,
       rating: null,
     },
