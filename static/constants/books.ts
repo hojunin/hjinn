@@ -293,8 +293,53 @@ export const books: BOOK[] = [
     author: '김상균',
     coverImage:
       'https://image.aladin.co.kr/product/31800/17/cover500/8901272806_2.jpg',
-    quickDescription: null,
+    quickDescription: '인류는 인공적으로 진화했다',
     createdDate: new Date('2023/07/03'),
+    description: '읽어보고 쓸게요!! - HJ',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '클루지',
+    author: '개리 마커스',
+    coverImage:
+      'https://image.aladin.co.kr/product/31724/75/cover500/8901272083_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/20'),
+    description: '읽어보고 쓸게요!! - HJ',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: 'Think and grow rich',
+    author: '나폴레온 힐',
+    coverImage:
+      'https://image.aladin.co.kr/product/25969/20/cover500/k562737221_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/20'),
+    description: '읽어보고 쓸게요!! - HJ',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '누구도 나를 파괴할 수 없다',
+    author: '데이비드 고긴스',
+    coverImage:
+      'https://image.aladin.co.kr/product/31910/92/cover500/8901273160_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/20'),
     description: '읽어보고 쓸게요!! - HJ',
     links: {},
     tags: {
