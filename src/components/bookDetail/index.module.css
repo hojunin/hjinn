@@ -17,6 +17,7 @@
   padding: 20px;
   overflow: scroll;
   animation: fade-in 100ms ease-in;
+  border-left: 1px solid #e7e7e7;
 }
 
 @media screen and (max-width: 440px) {
@@ -44,4 +45,5 @@
 
 [data-theme='dark'] .container {
   background-color: #202020;
+  border-left: 1px solid #4a4a4a;
 }
