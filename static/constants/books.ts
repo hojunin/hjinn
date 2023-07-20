@@ -28,6 +28,23 @@ export type ValueOf<T> = T[keyof T];
 
 export const books: BOOK[] = [
   {
+    title: 'The Black Book, 검은 감정',
+    author: '설레다(최민정)',
+    coverImage:
+      'https://image.aladin.co.kr/product/29747/63/cover500/k122839722_1.jpg',
+    quickDescription: '솔직하지 않고 싶은 감정에 솔직해져요',
+    createdDate: new Date('2023/07/22'),
+    description: null,
+    links: {
+      // brunch: 'https://brunch.co.kr/@dlsghwns/70',
+    },
+    tags: {
+      status: BOOK_STATUS.ONGOING,
+      review: false,
+      // rating: 9,
+    },
+  },
+  {
     title: '사람은 무엇으로 사는가',
     author: '톨스토이',
     coverImage:
