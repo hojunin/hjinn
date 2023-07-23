@@ -14,7 +14,7 @@ const Books = () => {
     >
       <div className={styles.root}>
         <div className={styles.container}>
-          <h1>호준쓰 도서관 📚</h1>
+          <h1>독서기록 📚</h1>
 
           <BookList />
         </div>
