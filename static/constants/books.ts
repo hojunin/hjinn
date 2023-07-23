@@ -153,7 +153,9 @@ export const books: BOOK[] = [
     createdDate: new Date('2022/07/05'),
     description:
       '유럽에서 손꼽히는 인재로 큰 성공을 거뒀지만 불교에 귀의한 스님의 이야기입니다. 겉으로 보기엔 완벽해보이는 사람이여도, 속내를 들어보니 실수도 많이하고 그렇게 완벽하지 않았어요. \n\n 우리도 너무 완벽하려 노력할 필요 없습니다. 그저 나와 여러분을 존중하고 인정하고 사랑하면 됩니다.',
-    links: {},
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/74',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       review: false,
