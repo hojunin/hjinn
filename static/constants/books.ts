@@ -37,6 +37,8 @@ export const books: BOOK[] = [
     description: `생각보다 불편한 감정이 많아요. 크래파스로 벅벅 문질러서 안보이게 하고 싶은 슬픔이나 괴로움, 막막함 같은 감정들이요. 마주하고도 모른채하고 싶은. \n\n 하지만 만나고 싶지 않다고 조우하지 않을 수 없는 감정들인걸 우리는 알고 있습니다. 해결할 순 없더라도, 한 번 만나보는건 어떨까요?`,
     links: {
       brunch: 'https://brunch.co.kr/@dlsghwns/73',
+      instagram:
+        'https://www.instagram.com/p/CvEn4C3RYnP/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
     tags: {
       status: BOOK_STATUS.DONE,
