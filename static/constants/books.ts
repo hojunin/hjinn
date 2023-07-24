@@ -57,6 +57,8 @@ export const books: BOOK[] = [
       '톨스토이의 단편들을 모아놓은 소설집입니다. 기독교 색채가 짙은 책이지만 마치 우화집을 읽는 듯한 전개와 그림책을 보는듯한 선명한 묘사로 사랑이라는 궁극의 가치를 제대로 전달받을 수 있었습니다. \n\n 지금 이 순간에 최산을 다해 사랑하라, 톨스토이가 여러 단편을 통해 꼭 말하고 싶었던 가치라고 생각해요. 어떤 물질이나 손에 쥘 수 없는 가치는 인간을 살게하지 않으니까요.',
     links: {
       brunch: 'https://brunch.co.kr/@dlsghwns/70',
+      instagram:
+        'https://www.instagram.com/p/CvE4nXDx42A/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
     tags: {
       status: BOOK_STATUS.DONE,

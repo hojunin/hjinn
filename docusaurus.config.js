@@ -110,14 +110,10 @@ const config = {
                 label: '깃허브',
                 href: 'https://github.com/hojunin',
               },
-              {
-                label: '링크드인',
-                href: 'https://www.linkedin.com/in/hojunin/',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} HOJUN IN, Powered by Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} HOJUN IN`,
       },
       prism: {
         theme: lightCodeTheme,
