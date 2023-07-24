@@ -13,6 +13,10 @@ const BookList = () => {
   const onClickBook = (book: BOOK) => {
     detailRef.current?.open(book);
   };
+  const isBookReviewEnable = (book: BOOK) => {
+    const links = book.links;
+    return 'instagram' in links || 'brunch' in links;
+  };
   return (
     <ListContainer>
       <div className={styles.header}>
@@ -32,10 +36,9 @@ const BookList = () => {
           <span className={styles.description}>{book.quickDescription}</span>
           <span className={styles.tags}>
             <Tag type={TAG_TYPE.STATUS} value={book.tags.status} />
-            {'instagram' in book.links ||
-              ('brunch' in book.links && (
-                <Tag type={TAG_TYPE.REVIEW} value={'서평'} />
-              ))}
+            {isBookReviewEnable(book) && (
+              <Tag type={TAG_TYPE.REVIEW} value={'서평'} />
+            )}
             {book.tags.rating && (
               <Tag type={TAG_TYPE.RATING} value={book.tags.rating / 2} />
             )}
