@@ -1,11 +1,11 @@
 ---
 slug: sitemap
-title: 사이트맵 자동화, 직접 구현해보자
+title: SEO 0) 대규모 사이트맵 생성 자동화, 직접 구현해보자
 authors: [hojun]
 tags: [seo, sitemap]
 ---
 
-사이트맵(sitemap)은 웹사이트 내 접근 가능한 모든 페이지 목록을 말합니다. 이 글에서는 사이트맵을 생성하는 방법과 주의사항 등을 알아볼거에요.
+사이트맵(sitemap)은 웹사이트 내 접근 가능한 모든 페이지 목록을 말합니다. 이 글에서는 사이트맵을 생성하는 방법과 주의사항, 특히 대규모 사이트맵 생성 등을 알아볼거에요.
 
 :::info
 
@@ -71,7 +71,7 @@ tags: [seo, sitemap]
 아래 보이는 코드는 서버에 모든 게시글의 slug 데이터를 가져와 **url** 태그를 만듭니다.
 
 ```jsx
-const slugs = await axios.get("https://blog-contents.com/all-post");
+const slugs = await axios.get('https://blog-contents.com/all-post');
 
 const postUrls = slugs.map(
   ({ slug }) =>
@@ -85,7 +85,7 @@ const postUrls = slugs.map(
         <lastmod>
           ${today}
         </lastmod>
-      </url>`
+      </url>`,
 );
 ```
 
@@ -108,17 +108,17 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
       <loc>https://[hojunin.com](http://hojunin.com/sitemap.xml)/about</loc>
     </url>
     
-    ${postUrls.join("\n")}</urlset>`.replace(/\n|\t/g, " ");
+    ${postUrls.join('\n')}</urlset>`.replace(/\n|\t/g, ' ');
 ```
 
 이제 다 만들었습니다. 마무리로 실제 xml 파일을 만들어야합니다. node 런타임에서 제공하는 fs 모듈로 파일을 생성합니다.
 
 ```jsx
-const fs = require("fs");
+const fs = require('fs');
 
 // ... 중략
 
-await fs.promises.writeFile("./sitemap.xml", sitemap, { encoding: "utf-8" });
+await fs.promises.writeFile('./sitemap.xml', sitemap, { encoding: 'utf-8' });
 ```
 
 위 코드들을 조합하면 sitemap.xml 파일이 생성되고, 각 프레임워크에 맞게 루트에서 static 파일로 서빙하면 완성입니다.
@@ -242,7 +242,7 @@ url 태그에는 “YYYY-MM-DD” 형태인 lastmod 태그도 포함시켜야하
 const enhanceDateFormat = (d) => {
   const dateToString = String(d);
   if (dateToString.length === 1) {
-    return "0" + dateToString;
+    return '0' + dateToString;
   }
   return dateToString;
 };
@@ -250,7 +250,7 @@ const enhanceDateFormat = (d) => {
 const today = new Date();
 // 아래 todayWithFormatDate 값을 가져다 쓸거에요.
 const todayWithFormatDate = `${today.getFullYear()}-${enhanceDateFormat(
-  today.getMonth() + 1
+  today.getMonth() + 1,
 )}-${enhanceDateFormat(today.getDate().toLocaleString())}`;
 ```
 
@@ -260,7 +260,7 @@ const todayWithFormatDate = `${today.getFullYear()}-${enhanceDateFormat(
 
 ```jsx
 const fetchPostsId = async () => {
-  return fetch("https://content.io/all-posts")
+  return fetch('https://content.io/all-posts')
     .then((res) => res.json())
     .then((data) => data.ids);
 };
@@ -283,7 +283,7 @@ const postMap = (type, ids) => {
       `<url>
 			<loc>${`https://[hojunin.com](http://hojunin.com/sitemap.xml)/post/${type}/${id}`}</loc>
 			<lastmod>${todayWithFormatDate}</lastmod>
-		</url> `
+		</url> `,
   );
 };
 ```
@@ -295,9 +295,9 @@ const postMap = (type, ids) => {
 ```jsx
 const generatePostSitemapXML = async (sitemapByString, index) => {
   const sitemap = `${sitemapDefault}
-    ${sitemapByString.join("\n")}</urlset>`.replace(/\n|\t|,/g, " ");
+    ${sitemapByString.join('\n')}</urlset>`.replace(/\n|\t|,/g, ' ');
   await fs.promises.writeFile(`./sitemap/post${index + 1}.xml`, sitemap, {
-    encoding: "utf-8",
+    encoding: 'utf-8',
   });
 };
 ```
