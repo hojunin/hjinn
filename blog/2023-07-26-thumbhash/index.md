@@ -15,7 +15,7 @@ tags: [seo, dynamic-metatag, rich-text-snipet]
 
 ## 이미지의 렌더링
 
-보통의 경우 네트워크에서 이미지를 받아온다고 가정했을 때 다음과 같은 과정을 거칩니다.
+보통의 경우 네트워크에서 이미지를 받아온다고 가정했을 때 다음과 같은 과정을 거칩니다. 가령 어떤 게시글을 조회했을 때 포함된 이미지를 렌더링한다고 해볼게요.
 
 ```mermaid
 sequenceDiagram
@@ -188,13 +188,13 @@ const ThumbHashTest = () => {
 
 만약 이미지 URL을 받았을 때, 원본 이미지와 함게 thumbhash string이 동봉되어있다면, 저희는 원본 이미지를 로드시켜놓고 빠르게 thumbhash string만 dataURL로 변환시켜 placeholder image를 보여주면 되니까요.
 
-간단한 노드 서버를 만들어서 위 알고리즘을 그대로 적용하면 되는 부분이라 코드는 넣지 않도록 할게요. 뭐 응답으로 아래와 같은 형태로 받게되면 되겠죠?
+간단한 노드 서버를 만들어서 위 알고리즘을 그대로 적용하면 되는 부분이라 코드는 넣지 않도록 할게요. 정상동작한다면 응답으로 아래와 같은 형태로 받게되면 되겠죠?
 
 ```jsx
 {
 	...
 	// 아래와 같이 # hash로 붙어서 string이 내려오면, 이를 해석해서 dataURL을 얻을 수 있다.
-	image: "https://cdn.image.kr/394832904#sjfkdlsafdk"
+	image: "https://cdn.image.kr/394832904#4cYNPwiXaIeOd3hwiGd4h3eHdwiHh3AK"
 	...
 }
 ```
