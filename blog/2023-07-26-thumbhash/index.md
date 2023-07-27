@@ -193,8 +193,9 @@ const ThumbHashTest = () => {
 ```jsx
 {
 	...
-	// 아래와 같이 # hash로 붙어서 string이 내려오면, 이를 해석해서 dataURL을 얻을 수 있다.
-	image: "https://cdn.image.kr/394832904#4cYNPwiXaIeOd3hwiGd4h3eHdwiHh3AK"
+	// 아래와 같이 인코딩된 string으로 thumbhash가 내려오면 이를 해석해서 dataURL을 얻을 수 있다.
+	image: "https://cdn.image.kr/394832904",
+  placeholder: "4cYNPwiXaIeOd3hwiGd4h3eHdwiHh3AK"
 	...
 }
 ```
