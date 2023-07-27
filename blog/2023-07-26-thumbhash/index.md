@@ -45,7 +45,7 @@ sequenceDiagram
 
 우선 이미지 주소를 반환하는 API의 응답이 올 때까지 보여줄 화면을 매끄럽게 구성해야합니다. 아래는 서버 응답이 정상적으로 도착하지 않았을 때 보여주는 loading 컴포넌트 대신 사용하는 Thumbnail 이미지입니다.
 
-![스크린샷 2023-07-26 오후 3.17.26.png](1.png)
+![스크린샷 2023-07-26 오후 3.17.26.png](https://miro.medium.com/v2/resize:fit:1358/1*WED_fjwEcSSSpJAUIkZQQA.png)
 
 ### 로딩 컴포넌트
 
