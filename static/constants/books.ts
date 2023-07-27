@@ -141,7 +141,11 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/06/05'),
     description:
       '우리에게 가치있는 일은 무엇인가. 그렇다면 가치없는 일은 무엇인가? 가치없는 일에 시간을 소모하고 있진 않은가? 설거지나 청소, 더 나아가 회사에서 일하는 것 까지 당신에게 재미와 의미를 주는가? 그렇지 않으면 그 일은 레버리지 되어야한다.\n\n 시간을 돈주고 사서 그 시간을 더 의미있는 분야에 쓴다. 레버리지는 외미없는 일을 외주로 돌린다는 뜻입니다. 그러려면 우선 나에게 중요한 일과 그렇지 않은 일을 아는 것 부터 시작합니다.',
-    links: {},
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/77',
+      instagram:
+        'https://www.instagram.com/p/CvMS_MoRMh8/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       review: false,
