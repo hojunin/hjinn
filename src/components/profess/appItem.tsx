@@ -1,7 +1,7 @@
 import { APP_ICON } from '@site/static/constants/profess';
 import { APP_NAME } from '@site/static/types/profess';
 import React from 'react';
-
+import './index.css';
 const AppListItem = ({
   app,
   metadataSuffix,

@@ -1,11 +1,8 @@
 p {
-  font-weight: normal;
+  font-weight: 500 !important;
 }
 
 strong {
-  color: var(--ifm-menu-color-active);
-}
-
-[data-theme='dark'] strong {
+  display: inline !important;
   color: var(--ifm-menu-color-active);
 }

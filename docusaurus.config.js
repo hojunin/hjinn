@@ -85,7 +85,7 @@ const config = {
           },
           {
             to: '/profess',
-            label: '떠벌림',
+            label: '주간 정산',
             position: 'left',
           },
           {
