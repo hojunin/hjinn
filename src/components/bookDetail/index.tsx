@@ -12,9 +12,7 @@ import StatusBox from './StatusBox/index';
 import BrunchImage from '../../../static/img/brunch.png';
 import BookInfo from './BookInfo/index';
 
-interface BookDetailModalProps {
-  book: BOOK;
-}
+interface BookDetailModalProps {}
 
 export interface BookDetailModalRef {
   open: (book: BOOK) => void;

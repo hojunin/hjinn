@@ -12,13 +12,13 @@ const Books = () => {
         .map((book) => book.title)
         .join(',')}`}
     >
-      <div className={styles.root}>
+      <main className={styles.root}>
         <div className={styles.container}>
           <h1>독서기록 📚</h1>
 
           <BookList />
         </div>
-      </div>
+      </main>
     </Layout>
   );
 };
