@@ -20,7 +20,10 @@ const ProfessPage = () => {
   };
 
   return (
-    <Layout title="주간 정산" description="내 현황">
+    <Layout
+      title="주간 정산"
+      description="주마다 핸드폰을 얼마나 썼는지, 목표한 바는 이루었는지 등을 기록하는 페이지입니다."
+    >
       <main className={styles.root}>
         <div className={styles.container}>
           <div className={styles.titleContainer}>
@@ -36,7 +39,7 @@ const ProfessPage = () => {
           <div className={styles.cardContainer}>
             <Card
               title="스크린 타임"
-              toggleDescription="1주간 휴대폰의 화면이 켜져있던 시간이에요"
+              toggleDescription="한주간 휴대폰의 화면이 켜져있던 시간이에요"
             >
               <ScreenTime
                 data={PROFESSES[currentIndex][PROFESS_TYPE.SCREEN_TIME]}
@@ -50,7 +53,10 @@ const ProfessPage = () => {
                 data={PROFESSES[currentIndex][PROFESS_TYPE.USING_APP_RANKING]}
               />
             </Card>
-            <Card title="화면 깨우기">
+            <Card
+              title="화면 깨우기"
+              toggleDescription="한주간 휴대폰의 화면을 켠 횟수에요"
+            >
               <WakeUpScreen
                 data={PROFESSES[currentIndex][PROFESS_TYPE.WAKE_UP_APP]}
               />
