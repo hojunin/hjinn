@@ -84,6 +84,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/profess',
+            label: '떠벌림',
+            position: 'left',
+          },
+          {
             href: 'https://hjinn.notion.site/Full-Speed-Ahead-9b036ea279d04498ba907620e641c475?pvs=4',
             label: '내 소개',
             position: 'left',

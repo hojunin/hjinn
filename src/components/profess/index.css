@@ -1,0 +1,11 @@
+p {
+  font-weight: normal;
+}
+
+strong {
+  color: var(--ifm-menu-color-active);
+}
+
+[data-theme='dark'] strong {
+  color: var(--ifm-menu-color-active);
+}

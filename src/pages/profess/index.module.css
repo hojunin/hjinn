@@ -1,0 +1,35 @@
+.root {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px 0px;
+  width: calc(100% - 320px);
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 440px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

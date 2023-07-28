@@ -1,0 +1,29 @@
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  top: 24px;
+  left: -50px;
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  color: #7c7c7c;
+  font-size: 12px;
+  padding: 15px 19px;
+  line-height: 150%;
+  z-index: 999;
+}
+.tooltip ::after {
+  border-top: 0px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #e0e0e0;
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 260px;
+}
