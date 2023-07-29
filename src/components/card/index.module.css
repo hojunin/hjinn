@@ -7,14 +7,14 @@
 .container::before {
   border-radius: 50%;
   width: 6rem;
-  height: 6rem;
+  min-height: 6rem;
   top: 30%;
   right: 7%;
 }
 
 .container .box {
   width: 100%;
-  height: 15.875em;
+  min-height: 15.875em;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.074);
   border: 1px solid rgba(0, 0, 0, 0.222);

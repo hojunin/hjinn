@@ -33,3 +33,14 @@
     row-gap: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 30px);
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
