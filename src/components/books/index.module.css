@@ -29,6 +29,11 @@
 
 .title {
   width: 20%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .author {
@@ -56,6 +61,19 @@
   }
   .author {
     width: 20%;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .description {
+    display: none;
+  }
+  .tags {
+    width: 50%;
+  }
+  .author {
+    width: 15%;
     margin: 0px 10px;
   }
 }

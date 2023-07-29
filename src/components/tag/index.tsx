@@ -48,6 +48,8 @@ const Container = styled.div<{ bg: string }>`
   padding: 4px 10px;
   margin-right: 4px;
   border-radius: 4px;
+
+  white-space: nowrap;
 `;
 
 const StarWrapper = styled.div`
