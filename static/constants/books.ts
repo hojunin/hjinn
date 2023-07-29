@@ -351,4 +351,79 @@ export const books: BOOK[] = [
       rating: null,
     },
   },
+  {
+    title: '인스타 브레인',
+    author: '안데르스 한센',
+    coverImage:
+      'https://image.aladin.co.kr/product/23973/11/cover500/k422639014_2.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/28'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '왜 일하는가',
+    author: '이나모리 가즈오',
+    coverImage:
+      'https://image.aladin.co.kr/product/26913/35/cover500/k102730602_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/28'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '상처 받지 않는 영혼',
+    author: '마이클 싱어',
+    coverImage:
+      'https://image.aladin.co.kr/product/4030/24/cover500/8998075083_2.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/28'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '모든 삶은 흐른다',
+    author: '로랑스 드빌레르',
+    coverImage:
+      'https://image.aladin.co.kr/product/31381/47/cover500/k292832005_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/28'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
+  {
+    title: '인류 밖에서 찾은 완벽한 리더들',
+    author: '장이권',
+    coverImage:
+      'https://image.aladin.co.kr/product/30818/95/cover500/8950991446_1.jpg',
+    quickDescription: null,
+    createdDate: new Date('2023/07/28'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      review: false,
+      rating: null,
+    },
+  },
 ];

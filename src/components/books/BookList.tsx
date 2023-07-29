@@ -1,15 +1,45 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BOOK, books } from '../../../static/constants/books';
+import { books } from '../../../static/constants/books';
 import styles from './index.module.css';
 import Tag, { TAG_TYPE } from '../tag';
 import styled from 'styled-components';
 import BookDetail, { BookDetailModalRef } from '../bookDetail';
+import { BOOK, BOOK_STATUS } from '@site/static/types/books';
 
 const BookList = () => {
+  const detailRef = useRef<BookDetailModalRef | null>(null);
   // 나중에 필터랑 소터 넣자.
   const [filteredBooks, setFilteredBooks] = useState(books);
 
-  const detailRef = useRef<BookDetailModalRef | null>(null);
+  useEffect(() => {
+    const sorted = sortByStatusAscending(books);
+    setFilteredBooks(sorted);
+  }, [books]);
+
+  const sortByStatusAscending = (books: BOOK[]): BOOK[] => {
+    try {
+      const customStatusOrder = [
+        BOOK_STATUS.DONE,
+        BOOK_STATUS.N,
+        BOOK_STATUS.ONGOING,
+        BOOK_STATUS.NOTYET,
+        BOOK_STATUS.DROP,
+      ];
+
+      return [...books].sort((a, b) => {
+        const statusA = a.tags.status;
+        const statusB = b.tags.status;
+
+        const indexA = customStatusOrder.indexOf(statusA);
+        const indexB = customStatusOrder.indexOf(statusB);
+
+        return indexA - indexB;
+      });
+    } catch (error) {
+      return books;
+    }
+  };
+
   const onClickBook = (book: BOOK) => {
     detailRef.current?.open(book);
   };

@@ -52,6 +52,10 @@
     display: none;
   }
   .tags {
-    width: 65%;
+    width: 45%;
+  }
+  .author {
+    width: 20%;
+    margin: 0px 10px;
   }
 }
