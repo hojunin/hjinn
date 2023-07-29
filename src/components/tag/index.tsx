@@ -1,6 +1,7 @@
 import React from 'react';
 import { ValueOf } from 'static/constants/books';
 import styled from 'styled-components';
+import Star from '../icons/star';
 
 export const TAG_TYPE = Object.freeze({
   RATING: '평점',
@@ -30,7 +31,11 @@ const Tag = ({
 }) => {
   return (
     <Container bg={getColorByType(type)}>
-      {type === TAG_TYPE.RATING && <RatingIcon />}
+      {type === TAG_TYPE.RATING && (
+        <StarWrapper>
+          <Star />
+        </StarWrapper>
+      )}
       {value}
     </Container>
   );
@@ -45,11 +50,7 @@ const Container = styled.div<{ bg: string }>`
   border-radius: 4px;
 `;
 
-const RatingIcon = styled.img.attrs({
-  src: 'https://img.getcha.io/icons/pictogram-regular-score_fill.png',
-  alt: '별점 아이콘',
-})`
-  width: 14px;
-  height: 14px;
+const StarWrapper = styled.div`
+  display: inline;
   margin-right: 4px;
 `;
