@@ -13,7 +13,7 @@ const Card = ({ title, toggleDescription, children }: CardProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.box}>
-        <div>
+        <div className={styles.titleContainer}>
           <span className={styles.title}>{title}</span>
           {toggleDescription && <InfoToggle description={toggleDescription} />}
         </div>

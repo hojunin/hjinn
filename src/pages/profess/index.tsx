@@ -61,6 +61,7 @@ const ProfessPage = () => {
                 data={PROFESSES[currentIndex][PROFESS_TYPE.WAKE_UP_APP]}
               />
             </Card>
+            {/* <Card title="회고"></Card> */}
           </div>
         </div>
       </main>

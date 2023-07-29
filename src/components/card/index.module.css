@@ -14,7 +14,7 @@
 
 .container .box {
   width: 100%;
-  min-height: 15.875em;
+  min-height: 17.875em;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.074);
   border: 1px solid rgba(0, 0, 0, 0.222);
@@ -32,7 +32,6 @@
 .container .box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .container .box .title {
@@ -76,5 +75,5 @@
 }
 
 .titleContainer {
-  display: flex;
+  margin-bottom: 20px;
 }

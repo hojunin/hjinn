@@ -14,11 +14,13 @@ const ScreenTime = ({ data }: { data: SCREEN_TIME }) => {
         이에요.
       </p>
       {data.compare.status === 'same' ? (
-        <p>- 지난 주와 별반 다를게 없네요</p>
+        <p>- 지난 주 대비 비슷한 수치에요.</p>
       ) : (
         <p>
           - 지난 주 대비 <strong>{data.compare.percent}%</strong>
-          {data.compare.status === 'added' ? '나 늘었어요' : '나 줄었어요'}
+          {data.compare.status === 'added'
+            ? '나 늘었어요 😇'
+            : '나 줄었어요 😎'}
         </p>
       )}
     </div>
