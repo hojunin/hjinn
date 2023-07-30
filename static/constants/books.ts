@@ -16,7 +16,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 9,
     },
   },
@@ -36,7 +35,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 9,
     },
   },
@@ -51,7 +49,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 7,
     },
   },
@@ -70,7 +67,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 9,
     },
   },
@@ -86,7 +82,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 8,
     },
   },
@@ -102,7 +97,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 8,
     },
   },
@@ -122,7 +116,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 10,
     },
   },
@@ -142,7 +135,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 10,
     },
   },
@@ -160,7 +152,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 6,
     },
   },
@@ -175,7 +166,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 6,
     },
   },
@@ -191,7 +181,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 7,
     },
   },
@@ -206,7 +195,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -221,7 +209,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -239,7 +226,6 @@ export const books: BOOK[] = [
     },
     tags: {
       status: BOOK_STATUS.DONE,
-      review: true,
       rating: 5,
     },
   },
@@ -255,7 +241,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.N,
-      review: false,
       rating: 10,
     },
   },
@@ -271,7 +256,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 6,
     },
   },
@@ -287,7 +271,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      review: false,
       rating: 5,
     },
   },
@@ -302,7 +285,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -317,7 +299,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -332,7 +313,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -347,7 +327,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -362,7 +341,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -377,7 +355,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
@@ -392,13 +369,12 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },
   {
     title: '모든 삶은 흐른다',
-    author: '로랑스 드빌레르',
+    author: '로랑스 드빌레르',
     coverImage:
       'https://image.aladin.co.kr/product/31381/47/cover500/k292832005_1.jpg',
     quickDescription: null,
@@ -406,9 +382,8 @@ export const books: BOOK[] = [
     description: null,
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
-      review: false,
-      rating: null,
+      status: BOOK_STATUS.DONE,
+      rating: 6,
     },
   },
   {
@@ -422,7 +397,6 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.NOTYET,
-      review: false,
       rating: null,
     },
   },

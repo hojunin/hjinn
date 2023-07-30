@@ -29,7 +29,8 @@ export type APP_NAME =
   | '구글 애널리틱스'
   | '뱅크샐러드'
   | '슬랙'
-  | '밀리의 서재';
+  | '밀리의 서재'
+  | '사진';
 
 type APP = {
   name: APP_NAME;

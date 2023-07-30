@@ -9,7 +9,9 @@ const WakeUpScreen = ({ data }: { data: WAKE_UP_APP }) => {
       <div style={{ marginBottom: 10 }}>
         <p>
           - 하루 평균 <strong>{data.count.average}</strong>번, 한 주동안 총{' '}
-          <strong>{data.count.all}</strong>번 휴대폰 화면을 켰어요
+          <strong>{data.count.all}</strong>번 휴대폰 화면을 켰어요.
+          <strong>{data.count.max.day}요일</strong>에만{' '}
+          <strong>{data.count.max.count}번</strong>이에요.
         </p>
         {data.count.compare.status === 'same' ? (
           <p>- 지난 주 대비 비슷한 수치에요.</p>

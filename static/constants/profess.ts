@@ -22,6 +22,7 @@ export const APP_ICON: Record<APP_NAME, string> = {
   슬랙: 'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b1/49/fe/b149fe56-fcba-3486-ab09-9dd6a18d4a4e/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp',
   '밀리의 서재':
     'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9d/86/87/9d8687fa-5a81-d441-8853-400e31be3e6d/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/460x0w.webp',
+  사진: 'https://help.apple.com/assets/63B87829CE32D578D65A85E4/63B8782ACE32D578D65A85EB/ko_KR/b27be11281d58d9597fabdfcc67a3060.png',
 };
 
 export const PROFESSES: PROFESS[] = [
@@ -297,6 +298,75 @@ export const PROFESSES: PROFESS[] = [
         {
           name: '유튜브 뮤직',
           metadata: 56,
+        },
+      ],
+    },
+  },
+  {
+    date: {
+      month: 7,
+      week: 4,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '3시간 19분',
+        all: '23시간 19분',
+      },
+      compare: {
+        percent: 0,
+        status: 'same',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '유튜브',
+          metadata: '7시간 07분',
+        },
+        {
+          name: '인스타그램',
+          metadata: '4시간 29분',
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: '1시간 16분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '1시간 12분',
+        },
+        {
+          name: '사진',
+          metadata: '56분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 602,
+        average: 86,
+        compare: {
+          status: 'same',
+          percent: 0,
+        },
+        max: {
+          count: 118,
+          day: '화',
+        },
+      },
+      firstApp: [
+        {
+          name: '구글 애널리틱스',
+          metadata: 94,
+        },
+        {
+          name: '카카오톡',
+          metadata: 84,
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: 67,
         },
       ],
     },

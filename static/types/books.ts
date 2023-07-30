@@ -21,7 +21,6 @@ export type BOOK = {
   };
   tags: {
     status: ValueOf<typeof BOOK_STATUS>;
-    review: boolean;
     rating: number; // 1~10
   };
 };
