@@ -380,7 +380,11 @@ export const books: BOOK[] = [
     quickDescription: null,
     createdDate: new Date('2023/07/28'),
     description: null,
-    links: {},
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/79',
+      instagram:
+        'https://www.instagram.com/p/CvWuHiSxxsx/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 6,
