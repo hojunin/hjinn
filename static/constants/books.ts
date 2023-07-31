@@ -260,21 +260,6 @@ export const books: BOOK[] = [
     },
   },
   {
-    title: '배민다움',
-    author: '홍성태',
-    coverImage:
-      'https://image.aladin.co.kr/product/9488/10/cover500/k592535738_2.jpg',
-    quickDescription: '식문화를 브랜딩하다',
-    createdDate: new Date('2023/07/21'),
-    description:
-      '개발자로서 바라본 배민은 꽤나 높은 수준의 기술력을 바탕으로 우리나라 배달시장을 주름잡은 대단한 기업이지만, 사용자로서 바라봤을 때는 그저 유쾌한 브랜딩의 연속입니다. \n\n 이 기업의 시작부터 어려움, 성장 과정 등을 한눈에 볼 수 있었고 인터뷰 형식이여서 꽤나 잘 읽혔던 것 같습니다.',
-    links: {},
-    tags: {
-      status: BOOK_STATUS.DONE,
-      rating: 5,
-    },
-  },
-  {
     title: '초인류',
     author: '김상균',
     coverImage:
@@ -377,9 +362,10 @@ export const books: BOOK[] = [
     author: '로랑스 드빌레르',
     coverImage:
       'https://image.aladin.co.kr/product/31381/47/cover500/k292832005_1.jpg',
-    quickDescription: null,
+    quickDescription: '같은 파도는 결코 다시 오지 않는다',
     createdDate: new Date('2023/07/28'),
-    description: null,
+    description:
+      '바다와 인생을 비유한 책에서 얻은 지혜를 소개해요. 바다의 무한한 얼굴이 우리 인생처럼 다양합니다.\n\n한 마디로, 인생의 여러 단계에 대한 해답을 바다와 비교하여 제시하는 책입니다. 결국엔 나 자신이 신념을 굳게 세우고 올바른 길을 걸어가는 것이 중요하다는 말을 하고 싶은게 아닐까요?',
     links: {
       brunch: 'https://brunch.co.kr/@dlsghwns/79',
       instagram:
