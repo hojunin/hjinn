@@ -53,7 +53,7 @@ export const books: BOOK[] = [
     },
   },
   {
-    title: '가진 돈을 모두 써라',
+    title: '가진 돈은 모두 써라',
     coverImage:
       'https://image.aladin.co.kr/product/27312/63/cover500/k342732124_1.jpg',
     author: '호리에 다카후미',
@@ -64,6 +64,8 @@ export const books: BOOK[] = [
       '책에서 한 문장만 꼽자면, "통장잔고는 지금도 잃고 있는 수많은 기회의 총액일 뿐이다"를 선택할 것 같아요. 위에서도 언급했지만, 통장잔고라는 용어는 우리가 사용하지 않고 쌓아두거나 흘려보내는 재화인 돈과 시간, 용기를 대표합니다. \n\n 저도 돈은 쌓을수록, 시간과 용기는 흘려보낼수록 안정감을 얻는 사람 중 하나였습니다. 그렇게 안정성을 얻긴 했지만, 다 읽고 나니까 결국 안정성이라는 게 오지도 않은 미래에 대한 과투자로 평가하는 게 맞다는 생각으로 돌아섰어요. 안정성이 불필요한 건 아니지만 과투자가 아닐 만큼만 투자하는 게 현명하겠다 싶었습니다.',
     links: {
       brunch: 'https://brunch.co.kr/@dlsghwns/58',
+      instagram:
+        'https://www.instagram.com/p/CvW6tskRtn8/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
     tags: {
       status: BOOK_STATUS.DONE,
