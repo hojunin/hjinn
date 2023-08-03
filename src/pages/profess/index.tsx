@@ -9,6 +9,7 @@ import WeekSelector from '@site/src/components/weekSelector';
 import { PROFESSES } from '@site/static/constants/profess';
 import { PROFESS_TYPE } from '@site/static/types/profess';
 import Summary from '@site/src/components/profess/summary';
+import Money from '@site/src/components/profess/money';
 
 const ProfessPage = () => {
   const [currentIndex, setCurrentIndex] = useState(PROFESSES.length - 1);
@@ -62,6 +63,14 @@ const ProfessPage = () => {
                 data={PROFESSES[currentIndex][PROFESS_TYPE.WAKE_UP_APP]}
               />
             </Card>
+            {PROFESS_TYPE.MONEY in PROFESSES[currentIndex] && (
+              <Card
+                title="소비 습관"
+                toggleDescription="고치고 싶은 소비습관이에요"
+              >
+                <Money data={PROFESSES[currentIndex][PROFESS_TYPE.MONEY]} />
+              </Card>
+            )}
             <Card title="총평">
               <Summary data={PROFESSES[currentIndex][PROFESS_TYPE.SUMMARY]} />
             </Card>

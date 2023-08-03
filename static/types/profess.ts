@@ -4,7 +4,8 @@ export const PROFESS_TYPE = {
   SCREEN_TIME: '스크린 타임',
   USING_APP_RANKING: '앱 사용 랭킹',
   WAKE_UP_APP: '화면 깨우기',
-  SUMMARY: '이번 주 총평',
+  SUMMARY: '총평',
+  MONEY: '돈',
 } as const;
 
 type COMPARE_METADATA = {
@@ -59,10 +60,22 @@ export type SUMMARY = {
   summaries: string[];
 };
 
+export type MONEY = {
+  cafe: {
+    count: number;
+    amount: number;
+  };
+  delivery: {
+    count: number;
+    amount: number;
+  };
+};
+
 export type PROFESS = {
   date: WEEKLY;
   [PROFESS_TYPE.SCREEN_TIME]: SCREEN_TIME;
   [PROFESS_TYPE.USING_APP_RANKING]: USING_APP_RANKING;
   [PROFESS_TYPE.WAKE_UP_APP]: WAKE_UP_APP;
   [PROFESS_TYPE.SUMMARY]: SUMMARY;
+  [PROFESS_TYPE.MONEY]: MONEY;
 };

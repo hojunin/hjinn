@@ -97,6 +97,16 @@ export const PROFESSES: PROFESS[] = [
     [PROFESS_TYPE.SUMMARY]: {
       summaries: [],
     },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1 + 1 + 1 + 1,
+        amount: 2000 + 13000 + 2500 + 5500 + 2800 + 1800,
+      },
+      delivery: {
+        count: 1 + 1,
+        amount: 14000 + 13000,
+      },
+    },
   },
   {
     date: {
@@ -169,6 +179,16 @@ export const PROFESSES: PROFESS[] = [
     [PROFESS_TYPE.SUMMARY]: {
       summaries: [],
     },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1,
+        amount: 1800,
+      },
+      delivery: {
+        count: 0,
+        amount: 0,
+      },
+    },
   },
   {
     date: {
@@ -240,6 +260,16 @@ export const PROFESSES: PROFESS[] = [
     },
     [PROFESS_TYPE.SUMMARY]: {
       summaries: [],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1,
+        amount: 6000 + 2000,
+      },
+      delivery: {
+        count: 1,
+        amount: 6500,
+      },
     },
   },
   {
@@ -316,6 +346,16 @@ export const PROFESSES: PROFESS[] = [
         '인스타 탐색탭의 늪에 빠진 것 같다',
       ],
     },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1,
+        amount: 5500 + 1900,
+      },
+      delivery: {
+        count: 1 + 1 + 1 + 1,
+        amount: 13000 + 18000 + 17000 + 4500,
+      },
+    },
   },
   {
     date: {
@@ -388,9 +428,18 @@ export const PROFESSES: PROFESS[] = [
     [PROFESS_TYPE.SUMMARY]: {
       summaries: [
         '하루 평균 3시간의 벽을 아직 못넘고 있다.',
-        '릴스와 유튜브가 주는 도파민이 너무 강하다',
-        '조회수의 노예, 구글 애널리틱스좀 그만보자',
+        '조회수의 노예야, 구글 애널리틱스좀 그만봐라',
       ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 0,
+        amount: 0,
+      },
+      delivery: {
+        count: 2,
+        amount: 8000 + 17000,
+      },
     },
   },
 ];
