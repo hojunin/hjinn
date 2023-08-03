@@ -322,13 +322,17 @@ export const books: BOOK[] = [
     author: '안데르스 한센',
     coverImage:
       'https://image.aladin.co.kr/product/23973/11/cover500/k422639014_2.jpg',
-    quickDescription: null,
+    quickDescription: '인간의 뇌는 수렵시절에 머물러있다.',
     createdDate: new Date('2023/07/28'),
-    description: null,
-    links: {},
+    description: ` 지금의 우리가 느끼는 본능, 욕구, 불안, 스트레스 등은 어디서 기원한걸까요? 누가 가르쳐주지 않았음에도 우리는 저런 감정을 느낄 수 있습니다. 인스타 브레인의 저자 안데르스 한센은 이 모든건 선조로부터 물려받았다고 생각합니다. 현대인이 느끼는 이러한 감정들은 그때 학습된 뇌가 현대의 환경에서 느끼는 인지부조화에서 왔다는 것입니다. \n\n  결국 원시 시대의 뇌를 가지고 있다고 해서 그 생활양식으로 회귀하는게 아닌 부조화를 줄이기 위해 뇌를 이해하고 내 감정과 행동을 다시 한번 생각해보게 하는 좋은 책이었습니다.`,
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/81',
+      instagram:
+        'https://www.instagram.com/p/CvdsoV7RUeX/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
+    },
     tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
+      status: BOOK_STATUS.DONE,
+      rating: 8,
     },
   },
   {
