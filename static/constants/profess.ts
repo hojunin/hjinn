@@ -94,6 +94,9 @@ export const PROFESSES: PROFESS[] = [
         },
       ],
     },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [],
+    },
   },
   {
     date: {
@@ -162,6 +165,9 @@ export const PROFESSES: PROFESS[] = [
           metadata: 59,
         },
       ],
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [],
     },
   },
   {
@@ -232,6 +238,9 @@ export const PROFESSES: PROFESS[] = [
         },
       ],
     },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [],
+    },
   },
   {
     date: {
@@ -301,6 +310,12 @@ export const PROFESSES: PROFESS[] = [
         },
       ],
     },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '유튜브 시청시간이 크게 늘었다',
+        '인스타 탐색탭의 늪에 빠진 것 같다',
+      ],
+    },
   },
   {
     date: {
@@ -368,6 +383,13 @@ export const PROFESSES: PROFESS[] = [
           name: '유튜브 뮤직',
           metadata: 67,
         },
+      ],
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '하루 평균 3시간의 벽을 아직 못넘고 있다.',
+        '릴스와 유튜브가 주는 도파민이 너무 강하다',
+        '조회수의 노예, 구글 애널리틱스좀 그만보자',
       ],
     },
   },

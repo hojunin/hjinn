@@ -8,6 +8,7 @@ import UseAppRanking from '@site/src/components/profess/usingAppRanking';
 import WeekSelector from '@site/src/components/weekSelector';
 import { PROFESSES } from '@site/static/constants/profess';
 import { PROFESS_TYPE } from '@site/static/types/profess';
+import Summary from '@site/src/components/profess/summary';
 
 const ProfessPage = () => {
   const [currentIndex, setCurrentIndex] = useState(PROFESSES.length - 1);
@@ -61,7 +62,9 @@ const ProfessPage = () => {
                 data={PROFESSES[currentIndex][PROFESS_TYPE.WAKE_UP_APP]}
               />
             </Card>
-            {/* <Card title="회고"></Card> */}
+            <Card title="총평">
+              <Summary data={PROFESSES[currentIndex][PROFESS_TYPE.SUMMARY]} />
+            </Card>
           </div>
         </div>
       </main>
