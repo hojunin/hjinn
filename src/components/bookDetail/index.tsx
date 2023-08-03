@@ -11,6 +11,7 @@ import styles from './index.module.css';
 import StatusBox from './StatusBox/index';
 import BrunchImage from '../../../static/img/brunch.png';
 import BookInfo from './BookInfo/index';
+import Close from '../icons/close';
 
 interface BookDetailModalProps {}
 
@@ -76,7 +77,7 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
               </IconButton>
 
               <IconButton onClick={close} enable>
-                <CloseIcon />
+                <Close />
               </IconButton>
             </div>
           </div>
@@ -100,7 +101,7 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
 );
 export default BookDetail;
 
-const IconButton = styled.button`
+const IconButton = styled.button<{ enable: boolean }>`
   all: unset;
   opacity: ${({ enable }) => (enable ? 1 : 0.3)};
   cursor: ${({ enable }) => (enable ? 'pointer' : 'normal')};
@@ -120,14 +121,6 @@ const InstaIcon = styled.img.attrs({
 const BrunchIcon = styled.img.attrs({
   src: BrunchImage,
   alt: '브런치 아이콘',
-})`
-  width: 30px;
-  height: 30px;
-`;
-
-const CloseIcon = styled.img.attrs({
-  src: 'https://img.getcha.io/icons/pictogram-regular-close_header.png',
-  alt: '닫기 아이콘',
 })`
   width: 30px;
   height: 30px;
