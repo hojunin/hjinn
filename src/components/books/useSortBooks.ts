@@ -27,7 +27,11 @@ const useSortBooks = (key?: 'date' | 'title' | 'review') => {
         const indexA = customStatusOrder.indexOf(statusA);
         const indexB = customStatusOrder.indexOf(statusB);
 
-        return indexA - indexB;
+        if (indexA !== indexB) {
+          return indexA - indexB;
+        } else {
+          return b.createdDate - a.createdDate;
+        }
       });
     } catch (error) {
       return books;
