@@ -3,7 +3,6 @@ const HOST = 'https://api.hojunin.com';
 interface FetcherRequest {
   path: string;
   config?: FetchConfig;
-  host?: string;
 }
 
 export const HTTP_METHOD_TYPE = {
@@ -55,7 +54,6 @@ export const fetcher = async <T>({
       credentials: 'include',
     });
 
-    console.log('🚀 ~ file: fetcher.ts:54 ~ response:', response);
     if (response.ok) {
       return await response.json();
     }

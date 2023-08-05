@@ -1,14 +1,11 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import useFetchBooks from '../components/books/useFetchBooks';
+import TestBooks from '../components/test';
 
 const Test = () => {
-  const books = useFetchBooks();
   return (
     <Layout>
-      {books?.map((book) => (
-        <li>{book.title}</li>
-      ))}
+      <TestBooks />
     </Layout>
   );
 };

@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+require('dotenv').config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,13 +16,13 @@ const config = {
   favicon: 'https://github.com/hojunin.png',
   organizationName: 'hojunin',
   projectName: 'hojunin',
+  customFields: {
+    password: process.env.PASSWORD,
+  },
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
-  scripts: [
-    "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KSCT6KG');",
-  ],
   headTags: [
     {
       tagName: 'meta',

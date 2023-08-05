@@ -3,12 +3,12 @@ import styles from './index.module.css';
 import Tag, { TAG_TYPE } from '../tag';
 import styled from 'styled-components';
 import BookDetail, { BookDetailModalRef } from '../bookDetail';
-import { BOOK } from '@site/static/types/books';
 import useSortBooks from './useSortBooks';
+import { BOOK } from '@site/build/types/books';
 
-const BookList = () => {
+const BookList = ({ books }: { books: BOOK[] }) => {
   const detailRef = useRef<BookDetailModalRef | null>(null);
-  const filteredBooks = useSortBooks();
+  const filteredBooks = useSortBooks(books);
 
   const onClickBook = (book: BOOK) => {
     detailRef.current?.open(book);

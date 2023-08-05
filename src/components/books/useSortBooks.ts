@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { books } from '@site/static/constants/books';
+
 import { BOOK, BOOK_STATUS } from '@site/static/types/books';
 
-const useSortBooks = (key?: 'date' | 'title' | 'review') => {
+const useSortBooks = (books: BOOK[], key?: 'date' | 'title' | 'review') => {
   const [filteredBooks, setFilteredBooks] = useState(books);
 
   useEffect(() => {
