@@ -340,13 +340,18 @@ export const books: BOOK[] = [
     author: '이나모리 가즈오',
     coverImage:
       'https://image.aladin.co.kr/product/26913/35/cover500/k102730602_1.jpg',
-    quickDescription: null,
-    createdDate: new Date('2023/08/15'),
-    description: null,
-    links: {},
+    quickDescription: '일은 그 자체로 고결한 행위입니다.',
+    createdDate: new Date('2023/08/05'),
+    description:
+      '일은 돈만을 위한 것이 아니라 내적 성장과 가치 창출을 통해 진정한 의미를 찾아가는 과정으로 정의를 내릴 수도 있네요. \n\n 허드렛일이나 반복업무같은 작은 일들도 곧은 마음가짐과 오랜 노력을 통해 깊이 있는 인격을 형성하며 성공으로 이끌어 갈 수 있다는 말에 저자의 마음가짐 또한 엿볼 수 있었습니다. \n\n 요즘같은 조용한 사직 시대에 공감을 얻을만한 책은 아닐지 모릅니다. 하지만 반대로 일을 통해 내가 원하는 목표를 찾고 내면을 성장시키는 데는 큰 도움이 될 것으로 생각합니다.',
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/83',
+      instagram:
+        'https://www.instagram.com/p/CvjncieOnAA/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
+    },
     tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
+      status: BOOK_STATUS.DONE,
+      rating: 7,
     },
   },
   {
