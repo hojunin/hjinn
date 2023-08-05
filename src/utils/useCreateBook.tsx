@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { fetcher } from '@site/src/utils/fetcher';
-
 const useCreateBook = (body) => {
   const {
     siteConfig: { customFields },
