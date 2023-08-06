@@ -442,4 +442,89 @@ export const PROFESSES: PROFESS[] = [
       },
     },
   },
+  {
+    date: {
+      month: 8,
+      week: 1,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '2시간 28분',
+        all: '17시간 16분',
+      },
+      compare: {
+        percent: 26,
+        status: 'reduced',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '유튜브',
+          metadata: '5시간 28분',
+        },
+        {
+          name: '인스타그램',
+          metadata: '3시간 42분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '1시간 10분',
+        },
+        {
+          name: '뱅크샐러드',
+          metadata: '27분',
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: '20분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 564,
+        average: 81,
+        compare: {
+          status: 'reduced',
+          percent: 6,
+        },
+        max: {
+          count: 144,
+          day: '월',
+        },
+      },
+      firstApp: [
+        {
+          name: '카카오톡',
+          metadata: 79,
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: 72,
+        },
+        {
+          name: '구글 애널리틱스',
+          metadata: 58,
+        },
+      ],
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '데이터를 의식하니까 확실히 스마트폰을 덜 쓰게된다.',
+        '인스타, 유튜브는 줄었지만 더 줄여야한다 (2시간대?)',
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 2,
+        amount: 4800 + 2000,
+      },
+      delivery: {
+        count: 0,
+        amount: 0,
+      },
+    },
+  },
 ];
