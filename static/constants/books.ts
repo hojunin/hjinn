@@ -290,20 +290,6 @@ export const books: BOOK[] = [
     },
   },
   {
-    title: 'Think and grow rich',
-    author: '나폴레온 힐',
-    coverImage:
-      'https://image.aladin.co.kr/product/25969/20/cover500/k562737221_1.jpg',
-    quickDescription: null,
-    createdDate: new Date('2023/09/20'),
-    description: '읽어보고 쓸게요!! - HJ',
-    links: {},
-    tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
-    },
-  },
-  {
     title: '누구도 나를 파괴할 수 없다',
     author: '데이비드 고긴스',
     coverImage:
