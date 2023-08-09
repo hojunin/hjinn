@@ -294,13 +294,13 @@ export const books: BOOK[] = [
     author: '데이비드 고긴스',
     coverImage:
       'https://image.aladin.co.kr/product/31910/92/cover500/8901273160_1.jpg',
-    quickDescription: null,
-    createdDate: new Date('2023/08/20'),
-    description: '읽어보고 쓸게요!! - HJ',
+    quickDescription: "당신은 더 대단한 일을 할 수 있다.",
+    createdDate: new Date('2023/08/09'),
+    description: '어쩌면 우리는 한계를 정해놓고 그 한계에 도달했을 때 스스로를 격하게 위로하고 있을지 모릅니다. ',
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
+      status: BOOK_STATUS.DONE,
+      rating: 5,
     },
   },
   {
