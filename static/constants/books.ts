@@ -297,10 +297,12 @@ export const books: BOOK[] = [
     quickDescription: "당신은 더 대단한 일을 할 수 있다.",
     createdDate: new Date('2023/08/09'),
     description: '어쩌면 우리는 한계를 정해놓고 그 한계에 도달했을 때 스스로를 격하게 위로하고 있을지 모릅니다. ',
-    links: {},
+    links: {
+      brunch: "https://brunch.co.kr/@dlsghwns/87"
+    },
     tags: {
       status: BOOK_STATUS.DONE,
-      rating: 5,
+      rating: 6,
     },
   },
   {
@@ -319,6 +321,48 @@ export const books: BOOK[] = [
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
+    },
+  },
+  {
+    title: '우는 법을 잃어버린 당신에게',
+    author: '김영아',
+    coverImage:null,
+    quickDescription: '동화책으로 배우는 심리학',
+    createdDate: new Date('2023/08/16'),
+    description: ` 나를 분명 잘 알고 있다고 생각하는데 막상 마주치면 두려워 무너집니다. 이는 우리가 무능해서가 아니라 잘 몰라서에요. 어쨋든 살아갈 방법은 있고 우리는 영리하게 파훼해나가면 됩니다. 그림책으로 심리학을 이해하고 실천해요`,
+    links: {
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
+  {
+    title: '독서의 기록',
+    author: '안예진',
+    coverImage:null,
+    quickDescription: '슬기로운 독서생활',
+    createdDate: new Date('2023/08/15'),
+    description: ` 분명 모두가 가진 불안감이 있습니다. 지금 다니는 회사, 직함, 직업 등이 사라지면 나도 사라지는걸까? 저자는 그 해답을 책에서 찾습니다. 그리고 감사하게도 책 컨텐츠 생산자라는 실존적 해답도 얻어내요. 책으로 풀린 저자의 인생을 살펴봐요.`,
+    links: {
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 6
+    },
+  },
+  {
+    title: '아주 세속적인 지혜',
+    author: '발타사르 그라시안',
+    coverImage:null,
+    quickDescription: '진짜 필요한 지햬',
+    createdDate: new Date('2023/08/15'),
+    description: ` 실속과 명분은 아주 재미있는 관계에 있습니다. 둘 다 사람을 살기합니다. 그리고 상호 배타적이면서 상호 보완적입니다. 보통의 책들은 좋은 말을 하느라 명분을 챙기라 하지만, 실속을 챙기지 않을 수 없습니다. 명분과 실리, 사실 두마리 토끼를 다 놓칠 순 없습니다.  `,
+    links: {
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 9
     },
   },
   {
