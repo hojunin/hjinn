@@ -352,11 +352,25 @@ export const books: BOOK[] = [
     },
   },
   {
+    title: '맥킨지 논리력 수업',
+    author: '저우궈위안',
+    coverImage:null,
+    quickDescription: '빈틈없이 문제 해기하기',
+    createdDate: new Date('2023/08/14'),
+    description: `어떤 문제를 빈틈없이 해결하기 위해선 어떻게 해야할까요? 논리에도 원칙과 법칙이 있습니다. 맥킨지라는 세계적인 컨설팅 그룹에서 문제를 해결하기 위한 방법론을 배워요.`,
+    links: {
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8
+    },
+  },
+  {
     title: '아주 세속적인 지혜',
     author: '발타사르 그라시안',
     coverImage:null,
     quickDescription: '진짜 필요한 지햬',
-    createdDate: new Date('2023/08/15'),
+    createdDate: new Date('2023/08/13'),
     description: ` 실속과 명분은 아주 재미있는 관계에 있습니다. 둘 다 사람을 살기합니다. 그리고 상호 배타적이면서 상호 보완적입니다. 보통의 책들은 좋은 말을 하느라 명분을 챙기라 하지만, 실속을 챙기지 않을 수 없습니다. 명분과 실리, 사실 두마리 토끼를 다 놓칠 순 없습니다.  `,
     links: {
     },
