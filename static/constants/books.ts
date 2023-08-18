@@ -192,12 +192,12 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/29714/21/cover500/k232838895_1.jpg',
     quickDescription: '200명의 타이탄에게 성공 비결을 묻다',
-    createdDate: new Date('2023/08/29'),
-    description: null,
+    createdDate: new Date('2023/08/18'),
+    description: "성공한 사람들은 어떠한 삶을 사는가. 어떤 마음가짐을 가지고 삶을 대하는가. 특별할 내용이 있나? \n\n 생각보다 대단한 것들이다 있습니다. 실천한다면 말이다. 그렇지 않고 팔짱을 낀 채 고개만 끄덕일 사람들에게는 어처구니 없을 만큼 대단하지 않은 일들로 성공하고 있음을 알 수 있습니다.",
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
+      status: BOOK_STATUS.DONE,
+      rating: 9,
     },
   },
   {
