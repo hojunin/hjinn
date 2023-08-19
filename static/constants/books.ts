@@ -201,6 +201,32 @@ export const books: BOOK[] = [
     },
   },
   {
+    title: '물고기는 존재하지 않는다',
+    author: '룰루 밀러',
+    coverImage:null,
+    quickDescription: '',
+    createdDate: new Date('2023/08/19'),
+    description: "너무 어렵당..",
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 7,
+    },
+  },
+  {
+    title: '죽음의 수용소에서',
+    author: '빅터 프랭클',
+    coverImage:null,
+    quickDescription: '삶의 의미를 좆아 살아가기',
+    createdDate: new Date('2023/08/19'),
+    description: "빅터 프랭클은 나치가 자행한 학살의 중심지인 아우슈비츠 수용소에서 3년을 버티고 해방된 오스트라이아의 정신과 의사입니다. 그는 어떻게 그 지옥같은 환경에서 정신적으로 지배당하지 않고 살아남을 수 있었을까요? \n\n 저자는 니체의 말을 인용하여 은유적으로 대답합니다. '왜 살아야 하는지 아는 사람은 그 어떤 상황도 견딜 수 있다' 그리고 이 경험을 토대로 로고테라피라는 정신질환 치료에 대한 방법론을 꽃피웁니다.",
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
+  {
     title: '기브 앤 테이크',
     author: '애덤 그렌트',
     coverImage:
