@@ -491,4 +491,112 @@ export const books: BOOK[] = [
       rating: null,
     },
   },
+  {
+    title: '미루기의 천재들',
+    author: '앤드류 산텔라',
+    coverImage:
+      'https://image.aladin.co.kr/product/17915/74/cover500/k662534942_1.jpg',
+    quickDescription: '게으른 게 아니라 창의적으로 바쁠 뿐입니다',
+    createdDate: new Date('2022/04/28'),
+    description:
+      "여유라는 이름으로 포장된 그 소중한 시간들은 미루기로 인해 모인 시간들이었어요. 사실 이 책을 읽기 전엔 그냥 '어우 하기싫어' 하며 미뤘던 날들에 창피했었는데 이젠 이렇게 당당해질 수 있어 나름의 위안이 되네요.",
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/90',
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 4,
+    },
+  },
+  {
+    title: '피프티피플',
+    author: '정세랑',
+    coverImage:
+      'https://image.aladin.co.kr/product/27721/47/cover500/8936434543_2.jpg',
+    quickDescription: '우리는 그저 52번째 실일 뿐입니다.',
+    createdDate: new Date('2022/05/28'),
+    description:
+      ' <안예은 - 홍연> 이라는 노래에서 인연인 사람들의 손과 손 사이는 붉은 실로 연결되어 있다는 표현이 나옵니다. 이 책에 등장하는 대부분 사람들도 얇든 두껍든, 보이지 않는 실로 연결이 되어 있습니다. 혈연으로 끈끈하게 엮인 사람도 있고, 소개팅에서 한두번 보고 끝나는 비교적 가벼운 인연도 있다.',
+    links: {
+      brunch: 'https://brunch.co.kr/@dlsghwns/91',
+    },
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 6,
+    },
+  },
+  {
+    title: '달러구트 꿈 백화점',
+    author: '이미예',
+    coverImage:
+      'https://image.aladin.co.kr/product/24512/70/cover500/k392630952_2.jpg',
+    quickDescription: '',
+    createdDate: new Date('2022/01/02'),
+    description: '',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
+  {
+    title: '계획이 실패가 되지 않게',
+    author: '이소연',
+    coverImage:
+      'https://image.aladin.co.kr/product/28407/81/cover500/k662835915_1.jpg',
+    quickDescription: '우리는 회사를 하나씩 운영하고 있다.',
+    createdDate: new Date('2023/01/02'),
+    description:
+      '우리는 회사를 하나씩 운영하고 있습니다. 그리고 그 회사가 잘 굴러가려면 목표를 설정하고, 실행하고, 평가한 뒤 다시 목표를 설정하는 피드백 루프가 필요해요. \n\n OKR 이론과 개인 레벨에서의 적용에 관한 방법론을 모두 배워봐요.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 7,
+    },
+  },
+  {
+    title: '아가미',
+    author: '구광모',
+    coverImage:
+      'https://image.aladin.co.kr/product/13925/89/cover500/k732532525_1.jpg',
+    quickDescription: '그레이시티에서 벌어지는 불쾌한 이야기',
+    createdDate: new Date('2022/11/02'),
+    description:
+      '글만 읽었는데, 마치 회색 필터가 끼워지는 듯한 암울한 분위기의 소설입니다. 그레이시티 소설이 아무리 SF나 미래와 엮인다곤 하지만, 물고기 인간에 관한 이야기일 줄은 몰랐습니다. \n\n 회색 세상 속, 커다란 호수 안에서 만큼은 자유를 느끼는 아가미가 달린 인간의 이야기.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 5,
+    },
+  },
+  {
+    title: '슈독',
+    author: '필 나이트',
+    coverImage:
+      'https://image.aladin.co.kr/product/9321/83/cover500/896435902x_2.jpg',
+    quickDescription: '어떻게든 되게 하는 기업가 정신',
+    createdDate: new Date('2021/01/02'),
+    description:
+      '슈 독은 신발에 미친 사람이라는 뜻입니다. 그런데 아무리 생각해도 필 나이트는 슈독이 아닙니다. 신발이 아니라 장갑을 팔았어도 잘 팔았을 사람입니다. \n\n 기업가는 어떻게든 기업이 잘 굴러가도록 하는 사람입니다. 나이키의 창업신화를 보며 기업가 정신을 배워봅니다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
+  {
+    title: '죽은자의 집청소',
+    author: '김 완',
+    coverImage:
+      'https://image.aladin.co.kr/product/9321/83/cover500/896435902x_2.jpg',
+    quickDescription: '말은 없지만 알 수 있는 집',
+    createdDate: new Date('2021/02/02'),
+    description:
+      '죽은자의 집 청소는 고독사한 사람의 방을 치우는 특수 청소부의 기록입니다. 죽은자는 말이 없지만, 죽은자의 집은 다양한 메시지를 품은 채 해석해주기를 기다리고 있습니다. 특히 고독사한 사람들의 경우 많은 메시지를 남기고 싶어할 것이다. 그래서 그런지 현장이 잘 보존된 고독사 현장에 가서 정리하며 놓인 여러가지 물건과 그 배치, 흔적들을 보고 아주 느린 시간동안 스쳐지나간 생각들이 이 책에 담겨있습니다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 6,
+    },
+  },
 ];
