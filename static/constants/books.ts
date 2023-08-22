@@ -193,7 +193,8 @@ export const books: BOOK[] = [
       'https://image.aladin.co.kr/product/29714/21/cover500/k232838895_1.jpg',
     quickDescription: '200명의 타이탄에게 성공 비결을 묻다',
     createdDate: new Date('2023/08/18'),
-    description: "성공한 사람들은 어떠한 삶을 사는가. 어떤 마음가짐을 가지고 삶을 대하는가. 특별할 내용이 있나? \n\n 생각보다 대단한 것들이다 있습니다. 실천한다면 말이다. 그렇지 않고 팔짱을 낀 채 고개만 끄덕일 사람들에게는 어처구니 없을 만큼 대단하지 않은 일들로 성공하고 있음을 알 수 있습니다.",
+    description:
+      '성공한 사람들은 어떠한 삶을 사는가. 어떤 마음가짐을 가지고 삶을 대하는가. 특별할 내용이 있나? \n\n 생각보다 대단한 것들이다 있습니다. 실천한다면 말이다. 그렇지 않고 팔짱을 낀 채 고개만 끄덕일 사람들에게는 어처구니 없을 만큼 대단하지 않은 일들로 성공하고 있음을 알 수 있습니다.',
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
@@ -203,10 +204,11 @@ export const books: BOOK[] = [
   {
     title: '물고기는 존재하지 않는다',
     author: '룰루 밀러',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/28465/73/cover500/k092835920_2.jpg',
     quickDescription: '',
     createdDate: new Date('2023/08/19'),
-    description: "너무 어렵당..",
+    description: '너무 어렵당..',
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
@@ -216,14 +218,31 @@ export const books: BOOK[] = [
   {
     title: '죽음의 수용소에서',
     author: '빅터 프랭클',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/24212/1/cover500/8936811541_2.jpg',
     quickDescription: '삶의 의미를 좆아 살아가기',
     createdDate: new Date('2023/08/19'),
-    description: "빅터 프랭클은 나치가 자행한 학살의 중심지인 아우슈비츠 수용소에서 3년을 버티고 해방된 오스트라이아의 정신과 의사입니다. 그는 어떻게 그 지옥같은 환경에서 정신적으로 지배당하지 않고 살아남을 수 있었을까요? \n\n 저자는 니체의 말을 인용하여 은유적으로 대답합니다. '왜 살아야 하는지 아는 사람은 그 어떤 상황도 견딜 수 있다' 그리고 이 경험을 토대로 로고테라피라는 정신질환 치료에 대한 방법론을 꽃피웁니다.",
+    description:
+      "빅터 프랭클은 나치가 자행한 학살의 중심지인 아우슈비츠 수용소에서 3년을 버티고 해방된 오스트라이아의 정신과 의사입니다. 그는 어떻게 그 지옥같은 환경에서 정신적으로 지배당하지 않고 살아남을 수 있었을까요? \n\n 저자는 니체의 말을 인용하여 은유적으로 대답합니다. '왜 살아야 하는지 아는 사람은 그 어떤 상황도 견딜 수 있다' 그리고 이 경험을 토대로 로고테라피라는 정신질환 치료에 대한 방법론을 꽃피웁니다.",
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
+    },
+  },
+  {
+    title: '싯다르타',
+    author: '헤르만 헤세',
+    coverImage:
+      'https://image.aladin.co.kr/product/32/95/cover500/8937460580_3.jpg',
+    quickDescription: '옴으로 통한다.',
+    createdDate: new Date('2023/08/21'),
+    description:
+      '부처님으로 알려진 싯다르타에 대한 소설입니다. 실제 이런 고행이나 속새를 경험한건 아니겠지만 진행해감에 따라 삶, 앎, 자연 등을 통해 세계의 단일성이라는 개념을 옴이라는 깨닳음을 얻으며 표현합니다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 7,
     },
   },
   {
@@ -320,11 +339,12 @@ export const books: BOOK[] = [
     author: '데이비드 고긴스',
     coverImage:
       'https://image.aladin.co.kr/product/31910/92/cover500/8901273160_1.jpg',
-    quickDescription: "당신은 더 대단한 일을 할 수 있다.",
+    quickDescription: '당신은 더 대단한 일을 할 수 있다.',
     createdDate: new Date('2023/08/09'),
-    description: '어쩌면 우리는 한계를 정해놓고 그 한계에 도달했을 때 스스로를 격하게 위로하고 있을지 모릅니다. ',
+    description:
+      '어쩌면 우리는 한계를 정해놓고 그 한계에 도달했을 때 스스로를 격하게 위로하고 있을지 모릅니다. ',
     links: {
-      brunch: "https://brunch.co.kr/@dlsghwns/87"
+      brunch: 'https://brunch.co.kr/@dlsghwns/87',
     },
     tags: {
       status: BOOK_STATUS.DONE,
@@ -352,12 +372,12 @@ export const books: BOOK[] = [
   {
     title: '우는 법을 잃어버린 당신에게',
     author: '김영아',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/29787/70/cover500/k242838602_1.jpg',
     quickDescription: '동화책으로 배우는 심리학',
     createdDate: new Date('2023/08/16'),
     description: ` 나를 분명 잘 알고 있다고 생각하는데 막상 마주치면 두려워 무너집니다. 이는 우리가 무능해서가 아니라 잘 몰라서에요. 어쨋든 살아갈 방법은 있고 우리는 영리하게 파훼해나가면 됩니다. 그림책으로 심리학을 이해하고 실천해요`,
-    links: {
-    },
+    links: {},
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
@@ -366,43 +386,43 @@ export const books: BOOK[] = [
   {
     title: '독서의 기록',
     author: '안예진',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/31877/75/cover500/k972833434_1.jpg',
     quickDescription: '슬기로운 독서생활',
     createdDate: new Date('2023/08/15'),
     description: ` 분명 모두가 가진 불안감이 있습니다. 지금 다니는 회사, 직함, 직업 등이 사라지면 나도 사라지는걸까? 저자는 그 해답을 책에서 찾습니다. 그리고 감사하게도 책 컨텐츠 생산자라는 실존적 해답도 얻어내요. 책으로 풀린 저자의 인생을 살펴봐요.`,
-    links: {
-    },
+    links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      rating: 6
+      rating: 6,
     },
   },
   {
     title: '맥킨지 논리력 수업',
     author: '저우궈위안',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/28393/56/cover500/k332835918_1.jpg',
     quickDescription: '빈틈없이 문제 해기하기',
     createdDate: new Date('2023/08/14'),
     description: `어떤 문제를 빈틈없이 해결하기 위해선 어떻게 해야할까요? 논리에도 원칙과 법칙이 있습니다. 맥킨지라는 세계적인 컨설팅 그룹에서 문제를 해결하기 위한 방법론을 배워요.`,
-    links: {
-    },
+    links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      rating: 8
+      rating: 8,
     },
   },
   {
     title: '아주 세속적인 지혜',
     author: '발타사르 그라시안',
-    coverImage:null,
+    coverImage:
+      'https://image.aladin.co.kr/product/31312/38/cover500/k472832889_1.jpg',
     quickDescription: '진짜 필요한 지햬',
     createdDate: new Date('2023/08/13'),
     description: ` 실속과 명분은 아주 재미있는 관계에 있습니다. 둘 다 사람을 살기합니다. 그리고 상호 배타적이면서 상호 보완적입니다. 보통의 책들은 좋은 말을 하느라 명분을 챙기라 하지만, 실속을 챙기지 않을 수 없습니다. 명분과 실리, 사실 두마리 토끼를 다 놓칠 순 없습니다.  `,
-    links: {
-    },
+    links: {},
     tags: {
       status: BOOK_STATUS.DONE,
-      rating: 9
+      rating: 9,
     },
   },
   {
