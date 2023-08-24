@@ -16,13 +16,18 @@ export const APP_ICON: Record<APP_NAME, string> = {
     'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/63/41/a8/6341a8d2-8d30-963c-aaa9-8999dbc3795d/logo_youtube_color-1x_U007emarketing-0-6-0-85-220.png/460x0w.webp',
   '구글 애널리틱스':
     'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/82/f5/93/82f5933d-ae70-043c-3582-b026f5828fac/logo_google_analytics_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/460x0w.webp',
-
+  구글맵:
+    'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c5/b2/62/c5b26226-f04c-6365-d9df-f467cc1f6753/logo_maps_ios_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/460x0w.webp',
   뱅크샐러드:
     'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f6/22/c9/f622c928-d079-fa42-20e7-bdeaac420eea/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp',
   슬랙: 'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b1/49/fe/b149fe56-fcba-3486-ab09-9dd6a18d4a4e/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp',
   '밀리의 서재':
     'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9d/86/87/9d8687fa-5a81-d441-8853-400e31be3e6d/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/460x0w.webp',
   사진: 'https://help.apple.com/assets/63B87829CE32D578D65A85E4/63B8782ACE32D578D65A85EB/ko_KR/b27be11281d58d9597fabdfcc67a3060.png',
+  카메라:
+    'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f1/7e/4d/f17e4d91-c3f4-0e8d-101b-c4d1cf041d21/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
+  인터넷:
+    'https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/da/ed/d6daeda8-e1e0-d08e-e8fd-7fd0f401f1f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
 };
 
 export const PROFESSES: PROFESS[] = [
@@ -525,6 +530,157 @@ export const PROFESSES: PROFESS[] = [
         count: 0,
         amount: 0,
       },
+    },
+  },
+
+  {
+    date: {
+      month: 8,
+      week: 2,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '4시간 28분',
+        all: '31시간 20분',
+      },
+      compare: {
+        percent: 81,
+        status: 'added',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '인스타그램',
+          metadata: '4시간 41분',
+        },
+        {
+          name: '유튜브',
+          metadata: '4시간 21분',
+        },
+        {
+          name: '구글맵',
+          metadata: '3시간 20분',
+        },
+        {
+          name: '그랩',
+          metadata: '2시간 54분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '2시간 38분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 1150,
+        average: 164,
+        compare: {
+          status: 'added',
+          percent: 104,
+        },
+        max: {
+          count: 293,
+          day: '화',
+        },
+      },
+      firstApp: [
+        {
+          name: '구글맵',
+          metadata: 182,
+        },
+        {
+          name: '카카오톡',
+          metadata: 161,
+        },
+        {
+          name: '인스타그램',
+          metadata: 100,
+        },
+      ],
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '베트남 여행 1주차. 아무리 여행중이라지만 휴대폰을 너무 많이봤다. 구글맵, 그랩이 꽤 많다.',
+        '쫌쫌따리로 SNS를 너무 많이 했다. 디지털 디톡스 했어야 했는데..',
+      ],
+    },
+  },
+  {
+    date: {
+      month: 8,
+      week: 3,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '5시간 09분',
+        all: '36시간 03분',
+      },
+      compare: {
+        percent: 15,
+        status: 'added',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '유튜브',
+          metadata: '9시간 45분',
+        },
+        {
+          name: '구글맵',
+          metadata: '5시간 44분',
+        },
+        {
+          name: '인스타그램',
+          metadata: '5시간 08분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '3시간 37분',
+        },
+        {
+          name: '인터넷',
+          metadata: '1시간 17분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 1031,
+        average: 147,
+        compare: {
+          status: 'reduced',
+          percent: 10,
+        },
+        max: {
+          count: 196,
+          day: '목',
+        },
+      },
+      firstApp: [
+        {
+          name: '구글맵',
+          metadata: 268,
+        },
+        {
+          name: '카카오톡',
+          metadata: 230,
+        },
+        {
+          name: '카메라',
+          metadata: 98,
+        },
+      ],
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '본격적으로 여행만 하다보니 구글맵을 많이 봤다.',
+        '밤에 책읽기만 하니 적적해서 유튜브나 인스타그램을 봤다.',
+      ],
     },
   },
 ];
