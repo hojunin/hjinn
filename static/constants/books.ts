@@ -599,4 +599,19 @@ export const books: BOOK[] = [
       rating: 6,
     },
   },
+  {
+    title: '쓰기의 쓸모',
+    author: '양지영',
+    coverImage:
+      'https://image.aladin.co.kr/product/29957/16/cover500/k112838143_1.jpg',
+    quickDescription: '하는 이유가 다 있다.',
+    createdDate: new Date('2023/08/25'),
+    description:
+      '글쓰기는 왜할까? 시간도 많이들고 에너지 소모에 비해 얻는것도 없는데. 글쓰기를 왜 하고, 뭘 얻을 수 있는지 조목조목 따저봅니다. 많은 독서 방법론도 배울 수 있어요.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 6,
+    },
+  },
 ];
