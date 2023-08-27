@@ -683,4 +683,90 @@ export const PROFESSES: PROFESS[] = [
       ],
     },
   },
+  {
+    date: {
+      month: 8,
+      week: 4,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '3시간 15분',
+        all: '22시간 50분',
+      },
+      compare: {
+        percent: 37,
+        status: 'added',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '인스타그램',
+          metadata: '4시간 48분',
+        },
+        {
+          name: '유튜브',
+          metadata: '4시간 26분',
+        },
+        {
+          name: '구글맵',
+          metadata: '2시간 16분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '1시간 25분',
+        },
+        {
+          name: '인터넷',
+          metadata: '41분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 868,
+        average: 124,
+        compare: {
+          status: 'reduced',
+          percent: 15,
+        },
+        max: {
+          count: 279,
+          day: '일',
+        },
+      },
+      firstApp: [
+        {
+          name: '구글맵',
+          metadata: 174,
+        },
+        {
+          name: '카카오톡',
+          metadata: 112,
+        },
+        {
+          name: '인스타그램',
+          metadata: 90,
+        },
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 3,
+        amount: 6000,
+      },
+      delivery: {
+        count: 2,
+        amount: 14000 + 8900,
+      },
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '여행의 영향이 줄어 전반적인 수치가 돌아오는 중이다.',
+        '핑계를 대며 열심히 살지 않았다.',
+        '이직에 힘을 쏟을 시기인 만큼 시간투자하지 않았다',
+      ],
+    },
+  },
 ];
