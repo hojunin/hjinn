@@ -10,7 +10,7 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/07/28'),
     description: `생각보다 불편한 감정이 많아요. 크래파스로 벅벅 문질러서 안보이게 하고 싶은 슬픔이나 괴로움, 막막함 같은 감정들이요. 마주하고도 모른채하고 싶은. \n\n 하지만 만나고 싶지 않다고 조우하지 않을 수 없는 감정들인걸 우리는 알고 있습니다. 해결할 순 없더라도, 한 번 만나보는건 어떨까요?`,
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/73',
+      brunch: 'https://blog.naver.com/hjinn_book/223194282422',
       instagram:
         'https://www.instagram.com/p/CvEn4C3RYnP/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -29,7 +29,7 @@ export const books: BOOK[] = [
     description:
       '톨스토이의 단편들을 모아놓은 소설집입니다. 기독교 색채가 짙은 책이지만 마치 우화집을 읽는 듯한 전개와 그림책을 보는듯한 선명한 묘사로 사랑이라는 궁극의 가치를 제대로 전달받을 수 있었습니다. \n\n 지금 이 순간에 최산을 다해 사랑하라, 톨스토이가 여러 단편을 통해 꼭 말하고 싶었던 가치라고 생각해요. 어떤 물질이나 손에 쥘 수 없는 가치는 인간을 살게하지 않으니까요.',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/70',
+      brunch: 'https://blog.naver.com/hjinn_book/223194281753',
       instagram:
         'https://www.instagram.com/p/CvE4nXDx42A/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -46,7 +46,9 @@ export const books: BOOK[] = [
     quickDescription: '성공의 치트키',
     createdDate: new Date('2023/07/05'),
     description: `자수성가 청년(자청)이 쓴 성공의 법칙입니다. 성공하기 위해서는 마치 게임에서 치트키를 사용해서 빠르게 성장하듯이 인생에도 이런 치트키가 있습니다. 이를 실천하느냐 보고 지나치느냐의 차이일 뿐입니다. \n\n 자청은 역행자의 7법칙이라고 명명했는데 책을 많이 읽거나 긍정적인 사고를 하는 등 우리가 흔히 읽는 자기계발서의 내용에 본인의 경험과 추가적인 내용이 합쳐져 큰 울림을 줬던 책입니다.`,
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194973466',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 7,
@@ -63,7 +65,7 @@ export const books: BOOK[] = [
     description:
       '책에서 한 문장만 꼽자면, "통장잔고는 지금도 잃고 있는 수많은 기회의 총액일 뿐이다"를 선택할 것 같아요. 위에서도 언급했지만, 통장잔고라는 용어는 우리가 사용하지 않고 쌓아두거나 흘려보내는 재화인 돈과 시간, 용기를 대표합니다. \n\n 저도 돈은 쌓을수록, 시간과 용기는 흘려보낼수록 안정감을 얻는 사람 중 하나였습니다. 그렇게 안정성을 얻긴 했지만, 다 읽고 나니까 결국 안정성이라는 게 오지도 않은 미래에 대한 과투자로 평가하는 게 맞다는 생각으로 돌아섰어요. 안정성이 불필요한 건 아니지만 과투자가 아닐 만큼만 투자하는 게 현명하겠다 싶었습니다.',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/58',
+      brunch: 'https://blog.naver.com/hjinn_book/223194243815',
       instagram:
         'https://www.instagram.com/p/CvW6tskRtn8/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -96,7 +98,9 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/07/01'),
     description:
       '어쩌면 성공이라는건 정답지에 가까운 자료들이 있고, 이 책이 나온지 20년이 넘었지만 비슷한 이야기를 하는 책들이 나오고 있습니다. 실천이 어렵지도 않죠. 하지만 아무리 외쳐도 열에 하나도 실천하지 않습니다. \n\n 저자는 뇌에 집중하라 말합니다. 이루고 싶은 일을 뇌에게 말하고 훈련시킨 다음 걸어가면 됩니다. \n\n 모든 일들은 자신이 이전에 깔아놓은 레일 위를 달려간다. 자기가 깔아놓은 레일을 달리는 사람과 남이 깔아놓은, 어디로 가는지도 모르는 레일을 달리는 사람의 속도는 확연히 다르다.',
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194961381',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
@@ -112,7 +116,7 @@ export const books: BOOK[] = [
     description:
       '우리에게 가치있는 일은 무엇인가. 그렇다면 가치없는 일은 무엇인가? 가치없는 일에 시간을 소모하고 있진 않은가? 설거지나 청소, 더 나아가 회사에서 일하는 것 까지 당신에게 재미와 의미를 주는가? 그렇지 않으면 그 일은 레버리지 되어야한다.\n\n 시간을 돈주고 사서 그 시간을 더 의미있는 분야에 쓴다. 레버리지는 외미없는 일을 외주로 돌린다는 뜻입니다. 그러려면 우선 나에게 중요한 일과 그렇지 않은 일을 아는 것 부터 시작합니다.',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/77',
+      brunch: 'https://blog.naver.com/hjinn_book/223194284122',
       instagram:
         'https://www.instagram.com/p/CvMS_MoRMh8/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -131,7 +135,7 @@ export const books: BOOK[] = [
     description:
       '유럽에서 손꼽히는 인재로 큰 성공을 거뒀지만 불교에 귀의한 스님의 이야기입니다. 겉으로 보기엔 완벽해보이는 사람이여도, 속내를 들어보니 실수도 많이하고 그렇게 완벽하지 않았어요. \n\n 우리도 너무 완벽하려 노력할 필요 없습니다. 그저 나와 여러분을 존중하고 인정하고 사랑하면 됩니다.',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/74',
+      brunch: 'https://blog.naver.com/hjinn_book/223194284122',
       instagram:
         'https://www.instagram.com/p/CvC1LhgRzP0/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==',
     },
@@ -150,7 +154,7 @@ export const books: BOOK[] = [
     description:
       "살면서 꼭 리더가 될 필요는 없습니다. 하지만 아무리 스스로의 역량이 뛰어나도 여럿이 힘을 합쳐야만 해결할 수 있는 거대하고 어려운 문제들이 많아요. 국제기구가 해결 중인 문제를 예로 들어볼게요. UN이 풀고 있는 문제는 세계평화입니다. 어느 누구도 홀로는 이 거대하고 추상화된 문제를 해결할 수 없습니다. 비슷한 생각과 열정을 가진 사람들이 모여야 겨우 출발할 수 있죠.\n\n 완전한 솔직함(Radical Candor), 책의 진짜 제목이죠. 42p에서 이 부분을 설명하는데, 넷플릭스의 규칙 없음이라는 책에서 언급된 '솔직하지만 무례하지 않게'가 오버랩되었어요. 결국 위선 없이 솔직히 말해야 하지만 의사표현에 있어서는 겸손하고 무례하지 않아야 한다는 점에서요.",
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/69',
+      brunch: 'https://blog.naver.com/hjinn_book/223194280905',
     },
     tags: {
       status: BOOK_STATUS.DONE,
@@ -195,7 +199,9 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/08/18'),
     description:
       '성공한 사람들은 어떠한 삶을 사는가. 어떤 마음가짐을 가지고 삶을 대하는가. 특별할 내용이 있나? \n\n 생각보다 대단한 것들이다 있습니다. 실천한다면 말이다. 그렇지 않고 팔짱을 낀 채 고개만 끄덕일 사람들에게는 어처구니 없을 만큼 대단하지 않은 일들로 성공하고 있음을 알 수 있습니다.',
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194738490',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 9,
@@ -269,7 +275,7 @@ export const books: BOOK[] = [
     description:
       '회사에 득이 되는 거면 돈 신경 쓰지 말고 실행해라, 휴가가 필요하면 맘껏 써라. 이런 자유로운 문화는 요즘 스타트업 특 이라고 해도 될 정도인데 넷플릭스에서 유효한 이유는 그럴만한 사람들이기 때문일지도 모릅니다. ',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/59',
+      brunch: 'https://blog.naver.com/hjinn_book/223194279210',
     },
     tags: {
       status: BOOK_STATUS.DONE,
@@ -344,7 +350,7 @@ export const books: BOOK[] = [
     description:
       '어쩌면 우리는 한계를 정해놓고 그 한계에 도달했을 때 스스로를 격하게 위로하고 있을지 모릅니다. ',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/87',
+      brunch: 'https://blog.naver.com/hjinn_book/223194288055',
     },
     tags: {
       status: BOOK_STATUS.DONE,
@@ -360,7 +366,7 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/08/02'),
     description: ` 지금의 우리가 느끼는 본능, 욕구, 불안, 스트레스 등은 어디서 기원한걸까요? 누가 가르쳐주지 않았음에도 우리는 저런 감정을 느낄 수 있습니다. 인스타 브레인의 저자 안데르스 한센은 이 모든건 선조로부터 물려받았다고 생각합니다. 현대인이 느끼는 이러한 감정들은 그때 학습된 뇌가 현대의 환경에서 느끼는 인지부조화에서 왔다는 것입니다. \n\n  결국 원시 시대의 뇌를 가지고 있다고 해서 그 생활양식으로 회귀하는게 아닌 부조화를 줄이기 위해 뇌를 이해하고 내 감정과 행동을 다시 한번 생각해보게 하는 좋은 책이었습니다.`,
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/81',
+      brunch: 'https://blog.naver.com/hjinn_book/223194286265',
       instagram:
         'https://www.instagram.com/p/CvdsoV7RUeX/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -377,7 +383,9 @@ export const books: BOOK[] = [
     quickDescription: '동화책으로 배우는 심리학',
     createdDate: new Date('2023/08/16'),
     description: ` 나를 분명 잘 알고 있다고 생각하는데 막상 마주치면 두려워 무너집니다. 이는 우리가 무능해서가 아니라 잘 몰라서에요. 어쨋든 살아갈 방법은 있고 우리는 영리하게 파훼해나가면 됩니다. 그림책으로 심리학을 이해하고 실천해요`,
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194784750',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
@@ -391,7 +399,9 @@ export const books: BOOK[] = [
     quickDescription: '슬기로운 독서생활',
     createdDate: new Date('2023/08/15'),
     description: ` 분명 모두가 가진 불안감이 있습니다. 지금 다니는 회사, 직함, 직업 등이 사라지면 나도 사라지는걸까? 저자는 그 해답을 책에서 찾습니다. 그리고 감사하게도 책 컨텐츠 생산자라는 실존적 해답도 얻어내요. 책으로 풀린 저자의 인생을 살펴봐요.`,
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194943398',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 6,
@@ -416,9 +426,9 @@ export const books: BOOK[] = [
     author: '발타사르 그라시안',
     coverImage:
       'https://image.aladin.co.kr/product/31312/38/cover500/k472832889_1.jpg',
-    quickDescription: '진짜 필요한 지햬',
+    quickDescription: '진짜 필요한 지혜',
     createdDate: new Date('2023/08/13'),
-    description: ` 실속과 명분은 아주 재미있는 관계에 있습니다. 둘 다 사람을 살기합니다. 그리고 상호 배타적이면서 상호 보완적입니다. 보통의 책들은 좋은 말을 하느라 명분을 챙기라 하지만, 실속을 챙기지 않을 수 없습니다. 명분과 실리, 사실 두마리 토끼를 다 놓칠 순 없습니다.  `,
+    description: `실속과 명분은 아주 재미있는 관계에 있습니다. 둘 다 사람을 살기합니다. 그리고 상호 배타적이면서 상호 보완적입니다. 보통의 책들은 좋은 말을 하느라 명분을 챙기라 하지만, 실속을 챙기지 않을 수 없습니다. 명분과 실리, 사실 두마리 토끼를 다 놓칠 순 없습니다.  `,
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
@@ -435,27 +445,13 @@ export const books: BOOK[] = [
     description:
       '일은 돈만을 위한 것이 아니라 내적 성장과 가치 창출을 통해 진정한 의미를 찾아가는 과정으로 정의를 내릴 수도 있네요. \n\n 허드렛일이나 반복업무같은 작은 일들도 곧은 마음가짐과 오랜 노력을 통해 깊이 있는 인격을 형성하며 성공으로 이끌어 갈 수 있다는 말에 저자의 마음가짐 또한 엿볼 수 있었습니다. \n\n 요즘같은 조용한 사직 시대에 공감을 얻을만한 책은 아닐지 모릅니다. 하지만 반대로 일을 통해 내가 원하는 목표를 찾고 내면을 성장시키는 데는 큰 도움이 될 것으로 생각합니다.',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/83',
+      brunch: 'https://blog.naver.com/hjinn_book/223194287247',
       instagram:
         'https://www.instagram.com/p/CvjncieOnAA/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 7,
-    },
-  },
-  {
-    title: '상처 받지 않는 영혼',
-    author: '마이클 싱어',
-    coverImage:
-      'https://image.aladin.co.kr/product/4030/24/cover500/8998075083_2.jpg',
-    quickDescription: null,
-    createdDate: new Date('2023/08/28'),
-    description: null,
-    links: {},
-    tags: {
-      status: BOOK_STATUS.NOTYET,
-      rating: null,
     },
   },
   {
@@ -468,7 +464,7 @@ export const books: BOOK[] = [
     description:
       '바다와 인생을 비유한 책에서 얻은 지혜를 소개해요. 바다의 무한한 얼굴이 우리 인생처럼 다양합니다.\n\n한 마디로, 인생의 여러 단계에 대한 해답을 바다와 비교하여 제시하는 책입니다. 결국엔 나 자신이 신념을 굳게 세우고 올바른 길을 걸어가는 것이 중요하다는 말을 하고 싶은게 아닐까요?',
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/79',
+      brunch: 'https://blog.naver.com/hjinn_book/223194284899',
       instagram:
         'https://www.instagram.com/p/CvWuHiSxxsx/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
     },
@@ -501,7 +497,7 @@ export const books: BOOK[] = [
     description:
       "여유라는 이름으로 포장된 그 소중한 시간들은 미루기로 인해 모인 시간들이었어요. 사실 이 책을 읽기 전엔 그냥 '어우 하기싫어' 하며 미뤘던 날들에 창피했었는데 이젠 이렇게 당당해질 수 있어 나름의 위안이 되네요.",
     links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/90',
+      brunch: 'https://blog.naver.com/hjinn_book/223194986744',
     },
     tags: {
       status: BOOK_STATUS.DONE,
@@ -517,9 +513,7 @@ export const books: BOOK[] = [
     createdDate: new Date('2022/05/28'),
     description:
       ' <안예은 - 홍연> 이라는 노래에서 인연인 사람들의 손과 손 사이는 붉은 실로 연결되어 있다는 표현이 나옵니다. 이 책에 등장하는 대부분 사람들도 얇든 두껍든, 보이지 않는 실로 연결이 되어 있습니다. 혈연으로 끈끈하게 엮인 사람도 있고, 소개팅에서 한두번 보고 끝나는 비교적 가벼운 인연도 있다.',
-    links: {
-      brunch: 'https://brunch.co.kr/@dlsghwns/91',
-    },
+    links: {},
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 6,
@@ -548,7 +542,9 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/01/02'),
     description:
       '우리는 회사를 하나씩 운영하고 있습니다. 그리고 그 회사가 잘 굴러가려면 목표를 설정하고, 실행하고, 평가한 뒤 다시 목표를 설정하는 피드백 루프가 필요해요. \n\n OKR 이론과 개인 레벨에서의 적용에 관한 방법론을 모두 배워봐요.',
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223194949931',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 7,
@@ -612,6 +608,21 @@ export const books: BOOK[] = [
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 6,
+    },
+  },
+  {
+    title: '일생에 한번은 고수를 만나라',
+    author: '한근태',
+    coverImage:
+      'https://image.aladin.co.kr/product/31830/61/cover500/k492833125_1.jpg',
+    quickDescription: '한국판 타이탄의 도구들이 되고싶은',
+    createdDate: new Date('2023/08/25'),
+    description:
+      '고수는 이렇다. 한 마디로 정의할 순 없지만 대체로 그러하다고 볼 수 있다. \n\n 고수가 되려면 지켜야할게 너무 많은게 아닌가?',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 5,
     },
   },
 ];
