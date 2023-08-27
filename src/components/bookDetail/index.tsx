@@ -5,13 +5,13 @@ import React, {
   useImperativeHandle,
 } from 'react';
 import OutsideClickDetector from '../outsideClickDetector';
-import { BOOK } from 'static/constants/books';
 import styled from 'styled-components';
 import styles from './index.module.css';
 import StatusBox from './StatusBox/index';
 import BrunchImage from '../../../static/img/brunch.png';
 import BookInfo from './BookInfo/index';
 import Close from '../icons/close';
+import { BOOK } from '@site/static/types/books';
 
 interface BookDetailModalProps {}
 
@@ -86,6 +86,7 @@ const BookDetail = forwardRef<BookDetailModalRef, BookDetailModalProps>(
             title={book.title}
             author={book.author}
             coverImage={book.coverImage}
+            date={book.createdDate}
           />
 
           {book.description?.split('\n').map((line, index) => (

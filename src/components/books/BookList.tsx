@@ -37,7 +37,7 @@ const BookList = ({ books }: { books: BOOK[] }) => {
           <span className={styles.tags}>
             <Tag type={TAG_TYPE.STATUS} value={book.tags.status} />
             {isBookReviewEnable(book) && (
-              <Tag type={TAG_TYPE.REVIEW} value={'서평'} />
+              <Tag type={TAG_TYPE.REVIEW} value={'독서록'} />
             )}
             {book.tags.rating && (
               <Tag type={TAG_TYPE.RATING} value={book.tags.rating / 2} />

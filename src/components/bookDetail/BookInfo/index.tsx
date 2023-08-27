@@ -1,11 +1,12 @@
+import { getElapsedTime } from '@site/src/utils/date';
 import React from 'react';
 import { styled } from 'styled-components';
 
-const BookInfo = ({ title, author, coverImage }) => {
+const BookInfo = ({ title, author, coverImage, date }) => {
   return (
     <Container>
       <Title>{title}</Title>
-      <Author>{author}</Author>
+      <Author>{`저자 : ${author} | 읽은 날 : ${getElapsedTime(date)}`}</Author>
 
       <CoverImage src={coverImage} alt={`${title} 책 커버 이미지`} />
     </Container>
@@ -26,7 +27,7 @@ const Title = styled.h1`
   align-self: flex-start;
 `;
 
-const Author = styled.h6`
+const Author = styled.h4`
   text-align: left;
   margin: 0;
   align-self: flex-start;

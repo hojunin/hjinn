@@ -616,7 +616,7 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/31830/61/cover500/k492833125_1.jpg',
     quickDescription: '한국판 타이탄의 도구들이 되고싶은',
-    createdDate: new Date('2023/08/25'),
+    createdDate: new Date('2023/08/26'),
     description:
       '고수는 이렇다. 한 마디로 정의할 순 없지만 대체로 그러하다고 볼 수 있다. \n\n 고수가 되려면 지켜야할게 너무 많은게 아닌가?',
     links: {},
