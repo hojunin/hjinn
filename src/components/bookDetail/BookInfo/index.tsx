@@ -6,7 +6,9 @@ const BookInfo = ({ title, author, coverImage, date }) => {
   return (
     <Container>
       <Title>{title}</Title>
-      <Author>{`저자 : ${author} | 읽은 날 : ${getElapsedTime(date)}`}</Author>
+      <Author>{`저자 : ${author} | 읽은 날 : ${
+        getElapsedTime(date) ?? '아직 읽지 않음'
+      }`}</Author>
 
       <CoverImage src={coverImage} alt={`${title} 책 커버 이미지`} />
     </Container>

@@ -257,7 +257,7 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/2709/7/cover500/8962605813_1.jpg',
     quickDescription: '현명한 기버가 됩시다',
-    createdDate: new Date('2023/08/10'),
+    createdDate: null,
     description: null,
     links: {},
     tags: {
@@ -318,7 +318,7 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/31800/17/cover500/8901272806_2.jpg',
     quickDescription: '인류는 인공적으로 진화했다',
-    createdDate: new Date('2023/09/03'),
+    createdDate: null,
     description: null,
     links: {},
     tags: {
@@ -332,7 +332,7 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/31724/75/cover500/8901272083_1.jpg',
     quickDescription: null,
-    createdDate: new Date('2023/08/20'),
+    createdDate: null,
     description: null,
     links: {},
     tags: {
@@ -479,7 +479,7 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/30818/95/cover500/8950991446_1.jpg',
     quickDescription: null,
-    createdDate: new Date('2023/07/28'),
+    createdDate: null,
     description: null,
     links: {},
     tags: {

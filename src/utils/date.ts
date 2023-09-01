@@ -85,6 +85,6 @@ export const getElapsedTime = (date: DATE): DATE => {
         : dayjs(date).format('YY.MM.DD');
 
     default:
-      return dayjs(date).format('YY.MM.DD');
+      return null;
   }
 };
