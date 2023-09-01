@@ -625,4 +625,34 @@ export const books: BOOK[] = [
       rating: 5,
     },
   },
+  {
+    title: '일이란 무엇인가',
+    author: '고동진',
+    coverImage:
+      'https://image.aladin.co.kr/product/32046/33/cover500/8937417375_1.jpg',
+    quickDescription: '직장은 나에게 어떤 의미인가?',
+    createdDate: new Date('2023/08/30'),
+    description:
+      '사원이 사장이 된다는 꿈같은 임무를 수행해낸 고동진 전 삼성전자 사장은 어떤 사람이었을까? \n\n 이나모리 가즈오 전 교세라 회장의 <<왜 일하는가>>라는 책이 오버랩되었습니다. 일 그 자체를 고결한 개념으로 봤던 것과 비슷하게 직장에서 어떤 마음가짐으로 일해야 하는지를 주로 서술했기 때문입니다.',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
+  {
+    title: '그렇게 인생은 이야기가 된다',
+    author: '제임스 R. 헤거티',
+    coverImage:
+      'https://image.aladin.co.kr/product/32098/34/cover500/k642834903_1.jpg',
+    quickDescription: '보잘것 없는 인생도 이야기가 될 수 있다',
+    createdDate: new Date('2023/08/31'),
+    description:
+      '뭣 없는 인생이라도 이야기가 된다. 그러니 기록하라. 아무도 볼 일 없다고, 아무도 안봤으면 좋겠다고 하는 생각은 좋지 않다. \n\n 돌아보면 특별할 것 없는 한 사람의 생에도 종단에 잘 엮으면 재미있는 이야기가 된다는 사실을 배웠다. \n\n 많이 기록하고 남기자. 지금부터라도!',
+    links: {},
+    tags: {
+      status: BOOK_STATUS.DONE,
+      rating: 8,
+    },
+  },
 ];
