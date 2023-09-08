@@ -35,7 +35,8 @@ export type APP_NAME =
   | '밀리의 서재'
   | '사진'
   | '인터넷'
-  | '카메라';
+  | '카메라'
+  | '카카오맵';
 
 type APP = {
   name: APP_NAME;

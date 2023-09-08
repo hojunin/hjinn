@@ -28,6 +28,8 @@ export const APP_ICON: Record<APP_NAME, string> = {
     'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f1/7e/4d/f17e4d91-c3f4-0e8d-101b-c4d1cf041d21/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
   인터넷:
     'https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/d6/da/ed/d6daeda8-e1e0-d08e-e8fd-7fd0f401f1f3/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp',
+  카카오맵:
+    'https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/da/f6/dd/daf6ddb0-821d-52ef-a95c-d250410caa36/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp',
 };
 
 export const PROFESSES: PROFESS[] = [
@@ -766,6 +768,93 @@ export const PROFESSES: PROFESS[] = [
         '여행의 영향이 줄어 전반적인 수치가 돌아오는 중이다.',
         '핑계를 대며 열심히 살지 않았다.',
         '이직에 힘을 쏟을 시기인 만큼 시간투자하지 않았다',
+      ],
+    },
+  },
+  {
+    date: {
+      month: 9,
+      week: 1,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '3시간 34분',
+        all: '25시간 2분',
+      },
+      compare: {
+        percent: 10,
+        status: 'added',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '유튜브',
+          metadata: '8시간 16분',
+        },
+        {
+          name: '인스타그램',
+          metadata: '5시간 57분',
+        },
+        {
+          name: '인터넷',
+          metadata: '1시간 40분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '1시간 32분',
+        },
+        {
+          name: '카카오맵',
+          metadata: '54분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 499,
+        average: 71,
+        compare: {
+          status: 'reduced',
+          percent: 43,
+        },
+        max: {
+          count: 101,
+          day: '화',
+        },
+      },
+      firstApp: [
+        {
+          name: '카카오톡',
+          metadata: 84,
+        },
+        {
+          name: '인스타그램',
+          metadata: 56,
+        },
+        {
+          name: '카카오맵',
+          metadata: 59,
+        },
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 0,
+        amount: 0,
+      },
+      delivery: {
+        count: 1,
+        amount: 29000,
+      },
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '2박 3일 예비군 훈련 동안 모두가 휴대폰 쳐다볼 때 우직하게 책만 본 효과가 톡톡히 드러났다!!',
+        '확실히 모르는 곳 가면 지도 어플에서 눈을 땔 수 없다.',
+        '과제 전형을 위해 스터디 카페를 갔더니 휴대폰을 거의 확인하지 않았다',
+        '배달을 거의 시켜먹지 않는 사람으로 변하고 있다.',
       ],
     },
   },
