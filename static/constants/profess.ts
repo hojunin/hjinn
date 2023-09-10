@@ -858,4 +858,90 @@ export const PROFESSES: PROFESS[] = [
       ],
     },
   },
+  {
+    date: {
+      month: 9,
+      week: 2,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '1시간 47분',
+        all: '12시간 30분',
+      },
+      compare: {
+        percent: 50,
+        status: 'reduced',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '인스타그램',
+          metadata: '3시간 12분',
+        },
+        {
+          name: '유튜브',
+          metadata: '3시간',
+        },
+        {
+          name: '카카오톡',
+          metadata: '1시간',
+        },
+        {
+          name: '뱅크샐러드',
+          metadata: '23분',
+        },
+        {
+          name: '배달의민족',
+          metadata: '21분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 465,
+        average: 66,
+        compare: {
+          status: 'reduced',
+          percent: 7,
+        },
+        max: {
+          count: 109,
+          day: '금',
+        },
+      },
+      firstApp: [
+        {
+          name: '카카오톡',
+          metadata: 86,
+        },
+        {
+          name: '인스타그램',
+          metadata: 63,
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: 45,
+        },
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1,
+        amount: 1800 + 2100,
+      },
+      delivery: {
+        count: 0,
+        amount: 0,
+      },
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '휴대폰 사용량이 획기적으로 줄었다. 과제 테스트를 하느라 집중한 영향이 크다',
+        '휴대폰으로 하는 행위가 맘에들지 않는다. 꽤 변하긴 했지만 바뀔 구석이 많다',
+        '이번 주엔 모든 식사 집밥 해먹기에 성공했다.',
+      ],
+    },
+  },
 ];
