@@ -655,4 +655,74 @@ export const books: BOOK[] = [
       rating: 8,
     },
   },
+  {
+    title: '호모 루덴스',
+    author: '요한 하위징아',
+    coverImage:
+      'https://image.aladin.co.kr/product/15278/36/cover500/k882533121_1.jpg',
+    quickDescription: '놀이놀이 인간',
+    createdDate: new Date('2023/08/31'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      rating: null,
+    },
+  },
+  {
+    title: '아비투스',
+    author: '도리스 메르틴',
+    coverImage:
+      'https://image.aladin.co.kr/product/31396/12/cover500/k082832106_1.jpg',
+    quickDescription: '',
+    createdDate: new Date('2023/08/31'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      rating: null,
+    },
+  },
+  {
+    title: '강원국의 글쓰기',
+    author: '강원국',
+    coverImage:
+      'https://image.aladin.co.kr/product/10044/19/cover200/k582533962_3.jpg',
+    quickDescription: '',
+    createdDate: new Date('2023/08/31'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      rating: null,
+    },
+  },
+  {
+    title: '기자의 글쓰기',
+    author: '박종인',
+    coverImage:
+      'https://image.aladin.co.kr/product/32201/68/cover500/k792834528_1.jpg',
+    quickDescription: '',
+    createdDate: new Date('2023/08/31'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      rating: null,
+    },
+  },
+  {
+    title: '도파민네이션',
+    author: '애나 렘키',
+    coverImage:
+      'https://image.aladin.co.kr/product/29125/5/cover500/8965965047_1.jpg',
+    quickDescription: '',
+    createdDate: new Date('2023/08/31'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.NOTYET,
+      rating: null,
+    },
+  },
 ];
