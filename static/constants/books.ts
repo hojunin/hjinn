@@ -688,12 +688,15 @@ export const books: BOOK[] = [
     author: '강원국',
     coverImage:
       'https://image.aladin.co.kr/product/10044/19/cover200/k582533962_3.jpg',
-    quickDescription: '',
-    createdDate: new Date('2023/08/31'),
-    description: null,
-    links: {},
+    quickDescription: '어떤 글이 좋은 글인가?',
+    createdDate: new Date('2023/09/15'),
+    description:
+      '글쓰기 또한 여러가지 도전의 하나로써 동기부여와 꾸준함이 뒷받침 되어야한다. 무슨 일이든 마찬가지이듯 이또한 그렇다. 이렇게 시작하는 글이라 더더욱 맘에 들었다. \n\n 어떤 글이 좋은 글인지에 대해 뚜렸하게 주장하는 부분도 인상깊었으나 시대가 변하고 좋은 글의 형태도 그에 맞춰지는 시대에 조금은 의아한 조건들도 있었다.\n\n 국어 문법에 대한 관심이 생겼다. 문법을 배우면 자연스래 옳은 단어와 틀린 단어를 알게되고, 그 단어들을 절묘하게 붙히는 법을 습득할 수 있어 결국엔 좋은 느낌의 글을 손에 쥘 수 있다.',
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223214108327',
+    },
     tags: {
-      status: BOOK_STATUS.NOTYET,
+      status: BOOK_STATUS.DONE,
       rating: null,
     },
   },
@@ -721,7 +724,7 @@ export const books: BOOK[] = [
     description: null,
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
+      status: BOOK_STATUS.ONGOING,
       rating: null,
     },
   },

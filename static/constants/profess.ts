@@ -944,4 +944,89 @@ export const PROFESSES: PROFESS[] = [
       ],
     },
   },
+  {
+    date: {
+      month: 9,
+      week: 3,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '1시간 32분',
+        all: '10시간 47분',
+      },
+      compare: {
+        percent: 14,
+        status: 'reduced',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '인스타그램',
+          metadata: '2시간 3분',
+        },
+        {
+          name: '유튜브',
+          metadata: '1시간 43분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '53분',
+        },
+        {
+          name: '단축어',
+          metadata: '57분',
+        },
+        {
+          name: '카카오맵',
+          metadata: '53분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 486,
+        average: 70,
+        compare: {
+          status: 'added',
+          percent: 5,
+        },
+        max: {
+          count: 92,
+          day: '토',
+        },
+      },
+      firstApp: [
+        {
+          name: '카카오톡',
+          metadata: 77,
+        },
+        {
+          name: '인스타그램',
+          metadata: 60,
+        },
+        {
+          name: '카카오맵',
+          metadata: 25,
+        },
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1,
+        amount: 6000 + 2200,
+      },
+      delivery: {
+        count: 1,
+        amount: 29000,
+      },
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '휴대폰 사용량이 또 줄었다. 이제 쓸데없이 휴대폰을 켜지 말자는 생각이 내재화되었다.',
+        '이제 커피에 대한 소비량 체크가 의미있나 싶다. 회사 다닐때나 유효한 옵션인데',
+      ],
+    },
+  },
 ];
