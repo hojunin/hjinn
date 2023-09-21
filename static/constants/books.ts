@@ -719,12 +719,13 @@ export const books: BOOK[] = [
     author: '애나 렘키',
     coverImage:
       'https://image.aladin.co.kr/product/29125/5/cover500/8965965047_1.jpg',
-    quickDescription: '',
-    createdDate: new Date('2023/08/31'),
-    description: null,
+    quickDescription: '쾌락과 고통 그 사이',
+    createdDate: new Date('2023/09/21'),
+    description:
+      '주로 마약이나 술, 포르노 등에 중독된 사람들이 나오지만, 만인 앞에 스마트폰 중독이 남아있습니다. 생각보다 심각한 문제라고 자각한 상태에서 이런 위험한 중독요소에 대입해서 읽으니 더 와닿았습니다.',
     links: {},
     tags: {
-      status: BOOK_STATUS.ONGOING,
+      status: BOOK_STATUS.DONE,
       rating: null,
     },
   },
