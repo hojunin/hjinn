@@ -634,7 +634,9 @@ export const books: BOOK[] = [
     createdDate: new Date('2023/08/30'),
     description:
       '사원이 사장이 된다는 꿈같은 임무를 수행해낸 고동진 전 삼성전자 사장은 어떤 사람이었을까? \n\n 이나모리 가즈오 전 교세라 회장의 <<왜 일하는가>>라는 책이 오버랩되었습니다. 일 그 자체를 고결한 개념으로 봤던 것과 비슷하게 직장에서 어떤 마음가짐으로 일해야 하는지를 주로 서술했기 때문입니다.',
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223219561680',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: 8,
@@ -671,7 +673,7 @@ export const books: BOOK[] = [
   },
   {
     title: '아비투스',
-    author: '도리스 메르틴',
+    author: '도리스 메르틴',
     coverImage:
       'https://image.aladin.co.kr/product/31396/12/cover500/k082832106_1.jpg',
     quickDescription: '',

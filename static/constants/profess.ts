@@ -1029,4 +1029,89 @@ export const PROFESSES: PROFESS[] = [
       ],
     },
   },
+  {
+    date: {
+      month: 9,
+      week: 4,
+      year: 2023,
+    },
+    [PROFESS_TYPE.SCREEN_TIME]: {
+      time: {
+        average: '1시간 24분',
+        all: '9시간 54분',
+      },
+      compare: {
+        percent: 8,
+        status: 'reduced',
+      },
+    },
+    [PROFESS_TYPE.USING_APP_RANKING]: {
+      app: [
+        {
+          name: '인스타그램',
+          metadata: '1시간 23분',
+        },
+        {
+          name: '유튜브',
+          metadata: '1시간 22분',
+        },
+        {
+          name: '카카오톡',
+          metadata: '50분',
+        },
+        {
+          name: '뱅크샐러드',
+          metadata: '39분',
+        },
+        {
+          name: '카카오맵',
+          metadata: '23분',
+        },
+      ],
+    },
+    [PROFESS_TYPE.WAKE_UP_APP]: {
+      count: {
+        all: 564,
+        average: 81,
+        compare: {
+          status: 'added',
+          percent: 15,
+        },
+        max: {
+          count: 128,
+          day: '월',
+        },
+      },
+      firstApp: [
+        {
+          name: '카카오톡',
+          metadata: 75,
+        },
+        {
+          name: '인스타그램',
+          metadata: 65,
+        },
+        {
+          name: '유튜브 뮤직',
+          metadata: 61,
+        },
+      ],
+    },
+    [PROFESS_TYPE.MONEY]: {
+      cafe: {
+        count: 1 + 1,
+        amount: 5000 + 2000,
+      },
+      delivery: {
+        count: 1,
+        amount: 8000,
+      },
+    },
+    [PROFESS_TYPE.SUMMARY]: {
+      summaries: [
+        '휴대폰 사용량에 대한 인식이 습관이 된 것 같다😎',
+        '인스타를 안해보니까 딱히 문제 없다. 줄여볼 수 있을 것 같다.',
+      ],
+    },
+  },
 ];
