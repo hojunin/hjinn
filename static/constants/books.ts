@@ -318,11 +318,11 @@ export const books: BOOK[] = [
     coverImage:
       'https://image.aladin.co.kr/product/31800/17/cover500/8901272806_2.jpg',
     quickDescription: '인류는 인공적으로 진화했다',
-    createdDate: null,
+    createdDate: new Date('2023/09/27'),
     description: null,
     links: {},
     tags: {
-      status: BOOK_STATUS.NOTYET,
+      status: BOOK_STATUS.DONE,
       rating: null,
     },
   },
