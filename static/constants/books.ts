@@ -320,7 +320,9 @@ export const books: BOOK[] = [
     quickDescription: '인류는 인공적으로 진화했다',
     createdDate: new Date('2023/09/27'),
     description: null,
-    links: {},
+    links: {
+      brunch: 'https://blog.naver.com/hjinn_book/223224647879',
+    },
     tags: {
       status: BOOK_STATUS.DONE,
       rating: null,
@@ -728,6 +730,20 @@ export const books: BOOK[] = [
     links: {},
     tags: {
       status: BOOK_STATUS.DONE,
+      rating: null,
+    },
+  },
+  {
+    title: '퓨처셀프',
+    author: '벤저민 하디',
+    coverImage:
+      'https://image.aladin.co.kr/product/32354/81/cover500/k342935366_1.jpg',
+    quickDescription: '미래의 나와 소통하기',
+    createdDate: new Date('2023/09/21'),
+    description: null,
+    links: {},
+    tags: {
+      status: BOOK_STATUS.ONGOING,
       rating: null,
     },
   },
