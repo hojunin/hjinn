@@ -90,7 +90,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://hjinn.notion.site/Full-Speed-Ahead-9b036ea279d04498ba907620e641c475?pvs=4',
+            href: 'https://hjinn.notion.site/hjinn/Full-Speed-Ahead-2d604da39fcd473d9328cf26877bb8cd',
             label: '내 소개',
             position: 'left',
           },
@@ -109,7 +109,7 @@ const config = {
             items: [
               {
                 label: '이력서',
-                href: 'https://hjinn.notion.site/Full-Speed-Ahead-9b036ea279d04498ba907620e641c475',
+                href: 'https://hjinn.notion.site/hjinn/Full-Speed-Ahead-2d604da39fcd473d9328cf26877bb8cd',
               },
               {
                 label: '브런치',
