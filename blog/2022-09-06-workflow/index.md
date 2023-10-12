@@ -57,7 +57,7 @@ Github Action은 Git에서 제공하는 CI/CD 툴입니다. 따로 어떠한 설
 
 원리는 간단합니다. 특정 이벤트가 발생하면 특정 job을 실행해줍니다.
 
-![깃허브 액션 설명](https://docs.github.com/assets/cb-25535/images/help/images/overview-actions-simple.png)
+![깃허브 액션 설명](https://i.imgur.com/Gtcjxed.png)
 
 github action를 활용하려면 용어부터 알아야 합니다.
 
