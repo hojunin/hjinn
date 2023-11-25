@@ -84,11 +84,11 @@ const config = {
             label: '독서기록',
             position: 'left',
           },
-          {
-            to: '/profess',
-            label: '주간 정산',
-            position: 'left',
-          },
+          // {
+          //   to: '/profess',
+          //   label: '주간 정산',
+          //   position: 'left',
+          // },
           {
             href: 'https://hjinn.notion.site/hjinn/Full-Speed-Ahead-2d604da39fcd473d9328cf26877bb8cd',
             label: '내 소개',
