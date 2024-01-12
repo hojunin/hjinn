@@ -23,7 +23,6 @@ const config = {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
-  scripts: ['./src/utils/clarify.js'],
   headTags: [
     {
       tagName: 'meta',
@@ -40,6 +39,7 @@ const config = {
       },
     },
   ],
+  scripts: ['https://asset-server.vercel.app/scripts/clarify.js'],
   themes: ['@docusaurus/theme-mermaid'],
   markdown: {
     mermaid: true,
@@ -75,21 +75,12 @@ const config = {
     ({
       navbar: {
         title: 'HJ__INN',
-        // logo: {
-        //   alt: '메인 아이콘',
-        //   src: 'img/logo.svg',
-        // },
         items: [
           {
             to: '/books',
             label: '독서기록',
             position: 'left',
           },
-          // {
-          //   to: '/profess',
-          //   label: '주간 정산',
-          //   position: 'left',
-          // },
           {
             href: 'https://hjinn.notion.site/hjinn/Full-Speed-Ahead-2d604da39fcd473d9328cf26877bb8cd',
             label: '내 소개',
