@@ -9,11 +9,11 @@ tags: [git]
 
 아래 나오는 명령어들은 아주 기본적이고 자주 사용하는 것들입니다. 그리고 저 상태로 사용하기 보단 다양한 옵션이 많으니 알아보고 유용하게 사용하길 바랍니다. 그럼 시작하겠습니다.
 
+![thumbnail](thumbnail.avif)
+
 :::info 이 글은 번역글이에요.
 Vercel의 개발자 Lynda Hale의 [가이드 문서](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)를 번역한 글입니다.
 :::
-
-![thumbnail](thumbnail.avif)
 
 <!--truncate-->
 
