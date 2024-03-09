@@ -13,6 +13,8 @@ tags: [git]
 Vercel의 개발자 Lynda Hale의 [가이드 문서](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)를 번역한 글입니다.
 :::
 
+![thumbnail](thumbnail.avif)
+
 <!--truncate-->
 
 ## 병합(Merging)
