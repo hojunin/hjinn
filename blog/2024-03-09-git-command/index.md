@@ -3,13 +3,14 @@ slug: git-command
 title: 초보자를 위한 깃 명령어 모음(번역글)
 authors: [hojun]
 tags: [git]
+image: https://lnwblzacktgzeiihvxtu.supabase.co/storage/v1/object/public/contents/prod/git.avif-29507
 ---
 
 깃(Git)은 정말 강력한 도구임에도 사람들은 깃의 다양한 기능을 쓰는걸 주저합니다. 협업단계에서 동료들이 `master` 브랜치를 `hard reset`한다던가 `force push`하는 사고를 왜 치는 걸 보며 이 내용을 알기 쉽고 직관적으로 이해할 수 있도록 시각화해야겟다는 생각을 했습니다.
 
 아래 나오는 명령어들은 아주 기본적이고 자주 사용하는 것들입니다. 그리고 저 상태로 사용하기 보단 다양한 옵션이 많으니 알아보고 유용하게 사용하길 바랍니다. 그럼 시작하겠습니다.
 
-![thumbnail](thumbnail.avif)
+![thumbnail](https://lnwblzacktgzeiihvxtu.supabase.co/storage/v1/object/public/contents/prod/git.avif-29507)
 
 :::info 이 글은 번역글이에요.
 Vercel의 개발자 Lynda Hale의 [가이드 문서](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)를 번역한 글입니다.

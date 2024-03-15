@@ -3,6 +3,7 @@ slug: clarify
 title: 고객을 관찰해보자, Clarity
 authors: [hojun]
 tags: [clarify]
+image: https://i.imgur.com/H6n1Rzx.gif
 ---
 
 플랫폼 비즈니스에서 DDD(Data Driven Decision)가 대두됨에 따라 데이터 신봉자가 굉장히 많아졌다. 즉, 숫자로 표현되는 **정량적 데이터**의 지위가 굉장히 높아진 것이다. 하지만 정말 유저를 이해하려면 정량적인 데이터와 함께 봐야할 것이 있다. 바로 정성적(Qualitative)인 데이터다.

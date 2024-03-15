@@ -3,6 +3,7 @@ slug: good-at-work-developer
 title: 일 잘하는 개발자
 authors: [hojun]
 tags: [developer]
+image: https://i.imgur.com/EezxhLj.png
 ---
 
 1년 전 쯤에 [좋은 개발자에 대한 글](https://www.hojunin.com/great-developer)을 쓴 적이 있다. 지금도 그 기준에 대해 아직도 동의한다. 지금 생각해보면 당시의 고민이 꽤 심도있었다는 것을 방증하는 듯 보인다. 다만 좋은 개발자가 일 잘하는 개발자인가? 라는 질문에는 의문이 든다.
