@@ -8,7 +8,6 @@ image: https://i.imgur.com/H6n1Rzx.gif
 
 플랫폼 비즈니스에서 DDD(Data Driven Decision)가 대두됨에 따라 데이터 신봉자가 굉장히 많아졌다. 즉, 숫자로 표현되는 **정량적 데이터**의 지위가 굉장히 높아진 것이다. 하지만 정말 유저를 이해하려면 정량적인 데이터와 함께 봐야할 것이 있다. 바로 정성적(Qualitative)인 데이터다.
 
-정량적 데이터만큼 중요한게 사용자의 목소리를 듣거나 그들의 사용실태를 직접 관찰하는 것이다.
 이 글에서는 왜 정성적인 데이터가 중요한지 설명하고, 그 측정 도구 중 하나인 Clarity를 알아본다.
 
 ![session replay](https://i.imgur.com/H6n1Rzx.gif)
