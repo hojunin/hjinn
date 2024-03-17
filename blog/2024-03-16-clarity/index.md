@@ -1,8 +1,8 @@
 ---
-slug: clarify
+slug: clarity
 title: 고객을 관찰해보자, Clarity
 authors: [hojun]
-tags: [clarify]
+tags: [clarity]
 image: https://i.imgur.com/H6n1Rzx.gif
 ---
 
